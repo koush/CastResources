@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <GridView
+            android:choiceMode="singleChoice"
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    <ListView
+            android:visibility="gone"
+            android:choiceMode="singleChoice"
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    <TextView
+            android:id="@+id/empty"
+            style="@android:style/TextAppearance.Large"
+            android:text="@string/no_media_found"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <View
+            android:visibility="gone"
+            style="@style/Separator"
+            android:id="@+id/divider"
+            android:background="@android:color/black"
+            />
+
+    <LinearLayout
+            android:visibility="gone"
+            android:layout_margin="8dp"
+            android:id="@+id/control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageButton
+                android:id="@+id/playback_toggle"
+                style="?android:attr/buttonBarButtonStyle"
+                android:src="@drawable/ic_av_pause_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <SeekBar
+                android:layout_gravity="center_vertical"
+                android:id="@+id/seek"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:progressDrawable="@drawable/seek_background"
+                />
+
+        <TextView
+                android:id="@+id/time"
+                android:layout_gravity="center_vertical"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"/>
+
+        <ImageButton
+                android:id="@+id/stop"
+                style="?android:attr/buttonBarButtonStyle"
+                android:src="@drawable/ic_av_stop_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
