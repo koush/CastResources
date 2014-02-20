@@ -24,7 +24,6 @@
     <string name="buy_premium">Buy Premium</string>
     <string name="rate">Rate</string>
     <string name="whats_new">What\'s New</string>
-    <string name="rate">Rate</string>
     <string name="all">All</string>
     <string name="photos">Photos</string>
     <string name="videos">Videos</string>
@@ -36,7 +35,7 @@
     <string name="playlists">Playlists</string>
     <string name="albums">Albums</string>
     <string name="artists">Artists</string>
-    <string name="now_playing">Now Playing</string>
     <string name="unknown_artist">Unknown Artist</string>
     <string name="rename_device">Rename Device</string>
+    <string name="added_to_playlist">Added to Playlist</string>
 </resources>
