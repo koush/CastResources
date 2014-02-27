@@ -22,7 +22,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:src="@drawable/ic_launcher"/>
+                    android:src="@drawable/ic_launcher_blue"/>
 
             <TextView
                     android:paddingLeft="8dp"

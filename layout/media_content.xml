@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:cast="http://schemas.android.com/apk/res/com.koushikdutta.cast"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical">
@@ -8,30 +9,21 @@
             android:id="@+id/footer_container"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical"/>
 
-    <GridView
-            android:choiceMode="singleChoice"
-            android:id="@+id/grid"
+    <com.astuetz.PagerSlidingTabStrip
+            cast:pstsTabPaddingLeftRight="0dp"
+            cast:pstsIndicatorColor="@color/action_bar_red"
+            cast:pstsShouldExpand="true"
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="48dip" />
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"/>
-
-    <ListView
-            android:visibility="gone"
-            android:choiceMode="singleChoice"
-            android:id="@+id/list"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
-
-    <TextView
-            android:id="@+id/empty"
-            style="@android:style/TextAppearance.Large"
-            android:text="@string/no_media_found"
-            android:gravity="center"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
 
     <View
             android:visibility="gone"

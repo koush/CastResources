@@ -3,8 +3,20 @@
     <style name="CastTheme" parent="AppTheme">
         <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
         <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
-
+        <item name="android:actionBarStyle">@style/CastActionBar</item>
         <item name="largeIconTheme">@style/CastTheme.LargeIcon</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_navigation_drawer</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/activated_background</item>
+        <item name="listHeaderTextColor">@android:color/black</item>
+    </style>
+
+    <style name="CastActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/action_bar_red</item>
+        <item name="android:titleTextStyle">@style/CastActionBarTitleText</item>
+    </style>
+
+    <style name="CastActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
     </style>
 
     <style name="CastDialogTheme" parent="android:Theme.Holo.Dialog.NoActionBar">
@@ -22,13 +34,5 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
         <item name="android:background">#ffcccccc</item>
-    </style>
-
-    <style name="Tutorial">
-        <item name="android:clickable">true</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:paddingRight">16dp</item>
-        <item name="android:paddingTop">4dp</item>
-        <item name="android:paddingBottom">4dp</item>
     </style>
 </resources>

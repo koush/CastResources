@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ListContentHeader" parent="@android:style/TextAppearance.Medium.Inverse">
+        <item name="android:background">@color/action_bar_red</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

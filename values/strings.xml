@@ -43,4 +43,11 @@
     <string name="chromecast">Chromecast</string>
     <string name="gallery">Gallery</string>
     <string name="media">Media</string>
+    <string name="muzei">Muzei</string>
+    <string name="settings">settings</string>
+    <string name="performance">Performance</string>
+    <string name="video_quality">Video Quality (bitrate)</string>
+    <string name="original_quality">Original Quality</string>
+    <string name="open_source_projects">Open Source Projects</string>
+    <string name="bitrate">Bitrate</string>
 </resources>
