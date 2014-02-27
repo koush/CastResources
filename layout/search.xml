@@ -9,7 +9,7 @@
         >
 
     <ImageView
-            android:src="@drawable/ic_launcher_blue"
+            android:src="@drawable/ic_launcher"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
