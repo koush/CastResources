@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="?attr/listPreferredItemPaddingRight"
+    android:paddingLeft="?attr/listPreferredItemPaddingLeft" >
+
+    <TextView
+        android:id="@android:id/text1"
+        style="?attr/listContentHeader"
+        android:fontFamily="conde"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/listHeaderTextColor" />
+
+</LinearLayout>

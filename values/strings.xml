@@ -38,4 +38,9 @@
     <string name="unknown_artist">Unknown Artist</string>
     <string name="rename_device">Rename Device</string>
     <string name="added_to_playlist">Added to Playlist</string>
+    <string name="apple_tv">Apple TV</string>
+    <string name="xbox">Xbox</string>
+    <string name="chromecast">Chromecast</string>
+    <string name="gallery">Gallery</string>
+    <string name="media">Media</string>
 </resources>
