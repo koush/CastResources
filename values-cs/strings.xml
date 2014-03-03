@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AllCast</string>
+    <string name="app_name_premium">AllCast Premium</string>
+    <string name="now_playing">Přehrává se</string>
+    <string name="no_media_playback">Nepřehrává se nic</string>
+    <string name="connect_to_device">Nelze navázat spojení</string>
+    <string name="searching_for_players">Vyhledávání přehrávačů\u2026</string>
+    <string name="searching_for_players_more">Vyhledávání přehrávačů\u2026\nProsím ujistěte se, že přehrávač je zapnutý a připojený k síti.</string>
+    <string name="wifi_disconnected">Není připojení k Wi-Fi.</string>
+    <string name="wifi_bandwidth">Rychlost Wi-Fi se zdá být pro plynulé přehrávání nedostatečná.\n\nPokud jste toto video sám vytvořil, zkuste použít konzervativnější nastavení.</string>
+    <string name="make_default">Nastavit toto zařízení jako výchozí?</string>
+    <string name="default_device">Výchozí zařízení</string>
+    <string name="login">Přihlášení</string>
+    <string name="no_logins">Nelze se přihlásit. Nebyl vytvořen žádný účet Google.</string>
+    <string name="no_localhost">Pro přehrávání lokálních souborů použijte prosím Galerii.</string>
+    <string name="dlna_server">Server DLNA</string>
+    <string name="dlna_renderer">DLNA konvertor</string>
+    <string name="select_playback_device">Zvolte zařízení pro přehrávání\u2026</string>
+    <string name="buy_premium">Zakoupit verzi Premium</string>
+    <string name="rate">Ohodnotit</string>
+    <string name="whats_new">Co je nového</string>
+    <string name="all">Vše</string>
+    <string name="photos">Fotografie</string>
+    <string name="videos">Videa</string>
+    <string name="no_media_found">Nenalezeno žádné médium</string>
+    <string name="loading">Načítání\u2026</string>
+    <string name="music">Hudba</string>
+    <string name="audio">Zvuk</string>
+    <string name="podcasts">Podcasty</string>
+    <string name="playlists">Seznam skladeb</string>
+    <string name="albums">Albumy</string>
+    <string name="artists">Umělci</string>
+    <string name="unknown_artist">Neznámý umělec</string>
+    <string name="rename_device">Přejmenovat zařízení</string>
+    <string name="added_to_playlist">Přidáno do seznamu skladeb</string>
+    <string name="gallery">Galerie</string>
+    <string name="settings">nastavení</string>
+    <string name="performance">Výkon</string>
+    <string name="video_quality">Kvalita lokálního videa (datový tok)</string>
+    <string name="original_quality">Originální kvalita</string>
+    <string name="open_source_projects">Projekty otevřeného software</string>
+    <string name="bitrate">Datový tok</string>
+    <string name="adaptive">Adaptivní</string>
+</resources>
