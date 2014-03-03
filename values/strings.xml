@@ -6,7 +6,7 @@
     <string name="no_media_playback">No Media playback in progress</string>
     <string name="connect_to_device">Connect To Device</string>
     <string name="searching_for_players">Searching for players&#8230;</string>
-    <string name="searching_for_players_more">Searching for players&#8230;\nPlease verify your TV player device is on and connected to the network.</string>
+    <string name="searching_for_players_more">Searching for players&#8230;\n\nPlease verify your TV connected player is on and connected to the network.</string>
     <string name="wifi">Wi-Fi</string>
     <string name="wifi_disconnected">Not connected to Wi-Fi.</string>
     <string name="wifi_bandwidth">Your Wi-Fi bandwidth may be insufficient to play back this video smoothly.\n\nIf you recorded this video yourself, try using more conservative settings.</string>
@@ -51,4 +51,5 @@
     <string name="open_source_projects">Open Source Projects</string>
     <string name="bitrate">Bitrate</string>
     <string name="adaptive">Adaptive</string>
+    <string name="bitrate_help">If your video playback stutters, adjust your bitrate in AllCast settings.\n\nFind a bitrate that works best for your network. Lower bitrates play smoother, but are lower quality.</string>
 </resources>

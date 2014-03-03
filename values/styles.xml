@@ -8,6 +8,9 @@
         <item name="android:homeAsUpIndicator">@drawable/ic_navigation_drawer</item>
         <item name="android:activatedBackgroundIndicator">@drawable/activated_background</item>
         <item name="listHeaderTextColor">@android:color/black</item>
+        <item name="android:icon">@drawable/ic_action_home</item>
+        <item name="icon">@drawable/ic_action_home</item>
+        <item name="showcaseViewStyle">@style/ShowcaseView.Light</item>
     </style>
 
     <style name="CastActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
@@ -34,5 +37,19 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">1dp</item>
         <item name="android:background">#ffcccccc</item>
+    </style>
+
+    <style name="ShowcaseView.Light">
+        <item name="sv_titleTextAppearance">@style/TextAppearance.ShowcaseView.Title</item>
+        <item name="sv_detailTextAppearance">@style/TextAppearance.ShowcaseView.Detail.Light</item>
+        <item name="sv_backgroundColor">#c01d3c1c</item>
+        <item name="sv_buttonText">@string/ok</item>
+        <item name="sv_showcaseColor">#FF1d3c1c</item>
+    </style>
+    <style name="TextAppearance.ShowcaseView.Title" parent="android:style/TextAppearance.Large">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="TextAppearance.ShowcaseView.Detail.Light">
+        <item name="android:textColor">#FFFFFF</item>
     </style>
 </resources>
