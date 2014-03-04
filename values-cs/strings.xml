@@ -42,4 +42,5 @@
     <string name="open_source_projects">Projekty otevřeného software</string>
     <string name="bitrate">Datový tok</string>
     <string name="adaptive">Adaptivní</string>
+    <string name="bitrate_help">Pokud je přáhrávání videa trhané, změňte hodnotu datového toku v nastavení.\n\nNajděte vyváženou hodnotu datového toku pro danou síť. Nižší datový tok znamená plynulejší přehrávání, ale také nižší kvalitu videa.</string>
 </resources>
