@@ -23,8 +23,15 @@
             >
 
         <TextView
-                style="@android:style/TextAppearance.Medium"
+                style="@style/VideoTitle"
                 android:id="@android:id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+
+        <TextView
+                style="@android:style/TextAppearance.Small"
+                android:id="@android:id/text2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical" />

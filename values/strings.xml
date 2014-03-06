@@ -52,4 +52,5 @@
     <string name="bitrate">Bitrate</string>
     <string name="adaptive">Adaptive</string>
     <string name="bitrate_help">If your video playback stutters, adjust your bitrate in AllCast settings.\n\nFind a bitrate that works best for your network. Lower bitrates play smoother, but are lower quality.</string>
+    <string name="extensions">Extensions</string>
 </resources>

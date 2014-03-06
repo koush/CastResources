@@ -52,4 +52,9 @@
     <style name="TextAppearance.ShowcaseView.Detail.Light">
         <item name="android:textColor">#FFFFFF</item>
     </style>
+
+    <style name="VideoTitle" parent="android:style/TextAppearance">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>
