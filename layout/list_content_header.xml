@@ -7,6 +7,7 @@
     <TextView
         android:id="@android:id/text1"
         style="?attr/listContentHeader"
+        android:fontFamily="sans-serif"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textColor="?attr/listHeaderTextColor" />
