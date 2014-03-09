@@ -4,17 +4,45 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <GridView android:id="@+id/abslist"
-              android:choiceMode="singleChoice"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:numColumns="3" />
+    <GridView
+            android:id="@+id/abslist"
+            android:choiceMode="singleChoice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="3"/>
 
     <TextView
+            android:visibility="gone"
             android:id="@+id/empty"
             style="@android:style/TextAppearance.Large"
             android:text="@string/no_media_found"
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
+
+    <LinearLayout
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <ImageView
+                android:src="@drawable/ic_launcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                style="@android:style/TextAppearance.Large"
+                android:text="@string/loading"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <ProgressBar
+                android:indeterminate="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
 </LinearLayout>

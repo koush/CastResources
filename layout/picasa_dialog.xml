@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:textColor="@color/action_bar_red"
+            android:minHeight="64dp"
+            android:paddingStart="16dip"
+            android:paddingEnd="16dip"
+            android:gravity="center_vertical|start"
+            android:fontFamily="sans-serif-condensed"
+            style="@android:style/TextAppearance.Large"
+            android:text="@string/google_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <View android:id="@+id/titleDivider"
+          android:layout_width="match_parent"
+          android:layout_height="2dip"
+          android:background="@color/action_bar_red" />
+
+    <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</LinearLayout>

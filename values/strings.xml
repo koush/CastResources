@@ -15,7 +15,6 @@
     <string name="login">Login</string>
     <string name="no_logins">Unable to login. You have not set up any Google Accounts.</string>
     <string name="no_localhost">To play local files, use the Gallery.</string>
-    <string name="dlna_server">DLNA Server</string>
     <string name="dlna_renderer">DLNA Renderer</string>
     <string name="roku">Roku</string>
     <string name="upnp">UPNP</string>
@@ -56,4 +55,6 @@
     <string name="other">Other</string>
     <string name="cloud">Cloud</string>
     <string name="network">Network</string>
+    <string name="media_server">Media Server</string>
+    <string name="google_plus">Google+</string>
 </resources>

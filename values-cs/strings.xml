@@ -12,7 +12,6 @@
     <string name="login">Přihlášení</string>
     <string name="no_logins">Nelze se přihlásit. Nebyl vytvořen žádný účet Google.</string>
     <string name="no_localhost">Pro přehrávání lokálních souborů použijte prosím Galerii.</string>
-    <string name="dlna_server">Server DLNA</string>
     <string name="dlna_renderer">DLNA konvertor</string>
     <string name="select_playback_device">Zvolte zařízení pro přehrávání\u2026</string>
     <string name="buy_premium">Zakoupit verzi Premium</string>
