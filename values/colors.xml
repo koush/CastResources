@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="action_bar_red">#c74b46</color>
+    <color name="action_bar_light_red">#ff7067</color>
 </resources>
