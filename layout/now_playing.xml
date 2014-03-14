@@ -44,6 +44,8 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"/>
             <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/playlist"
                     android:src="@drawable/ic_action_playlist"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
