@@ -53,27 +53,11 @@
 
         <ImageButton
                 style="?android:attr/buttonBarButtonStyle"
-                android:id="@+id/replay"
-                android:src="@drawable/ic_action_av_replay"
+                android:id="@+id/stop"
+                android:src="@drawable/ic_action_av_stop"
                 android:layout_width="0dp"
                 android:layout_height="48dp"
-                android:layout_weight="1"
-                />
-
-
-        <!--<LinearLayout-->
-                <!--android:layout_width="1dp"-->
-                <!--android:layout_height="match_parent"-->
-                <!--android:background="@android:drawable/divider_horizontal_dark"/>-->
-
-        <!--<ImageButton-->
-                <!--style="?android:attr/buttonBarButtonStyle"-->
-                <!--android:id="@+id/rewind"-->
-                <!--android:src="@drawable/ic_action_av_rewind"-->
-                <!--android:layout_width="0dp"-->
-                <!--android:layout_height="48dp"-->
-                <!--android:layout_weight="1"-->
-                <!--/>-->
+                android:layout_weight="1" />
 
         <LinearLayout
                 android:layout_width="1dp"
@@ -94,26 +78,11 @@
                 android:layout_height="match_parent"
                 android:background="@android:drawable/divider_horizontal_dark"/>
 
-        <!--<ImageButton-->
-                <!--style="?android:attr/buttonBarButtonStyle"-->
-                <!--android:id="@+id/fast_forward"-->
-                <!--android:src="@drawable/ic_action_av_fast_forward"-->
-                <!--android:layout_width="0dp"-->
-                <!--android:layout_height="48dp"-->
-                <!--android:layout_weight="1"-->
-                <!--/>-->
-
-        <!--<LinearLayout-->
-                <!--android:orientation="horizontal"-->
-                <!--android:id="@+id/fast_forward_divider"-->
-                <!--android:layout_width="1dp"-->
-                <!--android:layout_height="match_parent"-->
-                <!--android:background="@android:drawable/divider_horizontal_dark"/>-->
 
         <ImageButton
                 style="?android:attr/buttonBarButtonStyle"
-                android:id="@+id/stop"
-                android:src="@drawable/ic_action_av_stop"
+                android:id="@+id/replay"
+                android:src="@drawable/ic_action_av_replay"
                 android:layout_width="0dp"
                 android:layout_height="48dp"
                 android:layout_weight="1"
