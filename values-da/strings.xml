@@ -54,7 +54,7 @@
     <string name="rss">RSS</string>
     <string name="other">Andre</string>
     <string name="cloud">Cloud</string>
-    <string name="network">Network</string>
-    <string name="media_server">Media Server</string>
+    <string name="network">Netværk</string>
+    <string name="media_server">Medieserver</string>
     <string name="google_plus">Google+</string>
 </resources>
