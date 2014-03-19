@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">AllCast</string>
     <string name="app_name_premium">AllCast Premium</string>
-    <string name="now_playing">Riproducendo ora</string>
+    <string name="now_playing">In riproduzione</string>
     <string name="no_media_playback">Nessuna riproduzione di media in corso</string>
     <string name="connect_to_device">Connetti al dispositivo</string>
     <string name="searching_for_players">Cercando riproduttori&#8230;</string>
@@ -13,15 +13,15 @@
     <string name="make_default">Imposta questo dispositivo come predefinito</string>
     <string name="default_device">Dispositivo predefinito</string>
     <string name="login">Login</string>
-    <string name="no_logins">Impossibile effettuare il login. Non hai impostato nessun Google account.</string>
-    <string name="no_localhost">Per riprodurre files locali, usa la Galleria.</string>
+    <string name="no_logins">Impossibile effettuare il login. Non hai impostato nessun account Google.</string>
+    <string name="no_localhost">Per riprodurre file locali, usa la Galleria.</string>
     <string name="dlna_server">DLNA Server</string>
     <string name="dlna_renderer">DLNA Renderer</string>
     <string name="roku">Roku</string>
     <string name="upnp">UPNP</string>
     <string name="airplay">AirPlay</string>
-    <string name="select_playback_device">Selezione dispositivo di riproduzione&#8230;</string>
-    <string name="buy_premium">Compra Premium</string>
+    <string name="select_playback_device">Seleziona il dispositivo di riproduzione&#8230;</string>
+    <string name="buy_premium">Acquista la versione Premium</string>
     <string name="whats_new">Novità</string>
     <string name="rate">Valuta</string>
     <string name="all">Tutto</string>
@@ -29,12 +29,12 @@
     <string name="videos">Video</string>
     <string name="no_media_found">Nessun media trovato</string>
     <string name="loading">Caricamento&#8230;</string>
-    <string name="music">Misto</string>
+    <string name="music">Musica</string>
     <string name="audio">Audio</string>
     <string name="podcasts">Podcast</string>
     <string name="playlists">Playlist</string>
     <string name="albums">Album</string>
     <string name="artists">Artisti</string>
-    <string name="now_playing">Now Playing</string>
+    <string name="now_playing">In riproduzione</string>
     <string name="unknown_artist">Artista sconosciuto</string>
 </resources>
