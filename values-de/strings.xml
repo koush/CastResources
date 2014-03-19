@@ -57,4 +57,6 @@
     <string name="network">Netzwerk</string>
     <string name="media_server">Medien-Server</string>
     <string name="google_plus">Google+</string>
+    <string name="dlna_proxy">Medien-Server-Proxy</string>
+    <string name="dlna_proxy_summary">Webvideos werden auf Ihr Android-Gerät heruntergeladen, bevor sie an Ihren Smart-TV gesendet werden. Dies kann Probleme mit TVs von Samsung oder anderen Herstellern beheben.</string>
 </resources>
