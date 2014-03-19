@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AllCast</string>
+    <string name="app_name_premium">AllCast Premium</string>
+    <string name="now_playing">Παίζεται τώρα</string>
+    <string name="no_media_playback">Δεν υπάρχει καμία αναπαραγωγή σε εξέλιξη</string>
+    <string name="connect_to_device">Σύνδεση Σε Συσκευή</string>
+    <string name="searching_for_players">Αναζήτηση για αναμεταδότες&#8230;</string>
+    <string name="searching_for_players_more">Αναζήτηση για αναμεταδότες&#8230;\n\nΠαρακαλώ επιβεβαιώστε ότι ο αναμεταδότης 
+											της τηλεόρασής σας είναι ανοιχτός και συνδεδεμένος στο δίκτυο.</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="wifi_disconnected">Δεν είναι συνδεδεμένο στο Wi-Fi.</string>
+    <string name="wifi_bandwidth">Tο εύρος ζώνης του Wi-Fi σας μπορεί να μην είναι αρκετό για να αναπαράγετε αυτό το βίντεο ομαλά.\n\nΕάν μαγνητοσκοπήσατε το βίντεο εσείς, 
+	προσπαθήστε να χρησιμοποιήσετε πιο συντηριτικές ρυθμίσεις.</string>
+    <string name="make_default">Επιλογή συσκευής ως προεπιλεγμένη;</string>
+    <string name="default_device">Προεπιλεγμένη Συσκευή</string>
+    <string name="login">Είσοδος</string>
+    <string name="no_logins">Αδυναμία εισόδου. Δεν έχετε καθορίσει κάποιο λογαριασμό Google.</string>
+    <string name="no_localhost">Για την αναπαραγωγή τοπικών αρχείων, δοκιμάστε τη Συλλογή.</string>
+    <string name="dlna_renderer">DLNA Renderer</string>
+    <string name="roku">Roku</string>
+    <string name="upnp">UPNP</string>
+    <string name="airplay">AirPlay</string>
+    <string name="select_playback_device">Επιλέξτε συσκευή αναπαραγωγής&#8230;</string>
+    <string name="buy_premium">Αγορά Premium</string>
+    <string name="rate">Αξιολόγηση</string>
+    <string name="whats_new">Τι νέο υπάρχει;</string>
+    <string name="all">Όλα</string>
+    <string name="photos">Φωτογραφίες</string>
+    <string name="videos">Βίντεο</string>
+    <string name="no_media_found">Δεν βρέθηκαν media.</string>
+    <string name="loading">Φόρτωση&#8230;</string>
+    <string name="music">Μουσική</string>
+    <string name="audio">Ήχος</string>
+    <string name="podcasts">Podcasts</string>
+    <string name="playlists">Λίστες Αναπαραγωγής</string>
+    <string name="albums">Άλμπουμ</string>
+    <string name="artists">Καλλιτέχνες</string>
+    <string name="unknown_artist">Άγνωστος Καλλιτέχνης</string>
+    <string name="rename_device">Μετονομασία Συσκευής</string>
+    <string name="added_to_playlist">Προστέθηκε στη Λίστα Αναπαραγωγής</string>
+    <string name="apple_tv">Apple TV</string>
+    <string name="xbox">Xbox</string>
+    <string name="chromecast">Chromecast</string>
+    <string name="gallery">Συλλογή</string>
+    <string name="media">Media</string>
+    <string name="muzei">Muzei</string>
+    <string name="settings">ρυθμίσεις</string>
+    <string name="performance">Performance</string>
+    <string name="video_quality">Ποιότητα τοπικού βίντεο (Ρυθμός μετάδοσης)</string>
+    <string name="original_quality">Αρχική ποιότητα</string>
+    <string name="open_source_projects">Projects Ανοικτού Κώδικα</string>
+    <string name="bitrate">Ρυθμός μετάδοσης</string>
+    <string name="adaptive">Προσαρμόσιμο</string>
+    <string name="bitrate_help">Εάν η αναπαραγωγή του βίντεο κολλάει, προσαρμόστε το ρυθμό μετάδοσης στις ρυθμίσεις του AllCast.
+	\n\nΒρείτε ένα ρυθμό μετάδοσης που να ταιριάζει καλύτερα σοτ δίκτυό σας. Οι χαμηλοί ρυθμοί μετάδοσης παίζουν όμαλότερα, αλλά σε μικρότερη ποιότητα!</string>
+    <string name="rss">RSS</string>
+    <string name="other">Άλλα</string>
+    <string name="cloud">Cloud</string>
+    <string name="network">Δίκτυο</string>
+    <string name="media_server">Media Server</string>
+    <string name="google_plus">Google+</string>
+</resources>
