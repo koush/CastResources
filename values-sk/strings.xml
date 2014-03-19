@@ -58,5 +58,5 @@
     <string name="media_server">Server médií</string>
     <string name="google_plus">Google+</string>
     <string name="dlna_proxy">Proxy servera médií</string>
-    <string name="dlna_proxy_summary">Stiahnite si webové videá do vášho Android zariadenia pred odoslaním do vášho Smart TV. Toto môže vyriešiť problémy so Samsung TV a ostatnými.</string>
+    <string name="dlna_proxy_summary">Stiahnuť videá z webu do vášho Android zariadenia pred odoslaním do vášho Smart TV. Toto môže vyriešiť problémy so Samsung TV a ostatnými.</string>
 </resources>
