@@ -5,8 +5,8 @@
     <string name="now_playing">In riproduzione</string>
     <string name="no_media_playback">Nessuna riproduzione di media in corso</string>
     <string name="connect_to_device">Connetti al dispositivo</string>
-    <string name="searching_for_players">Cercando riproduttori&#8230;</string>
-    <string name="searching_for_players_more">Cercando riproduttori&#8230;\nPer favore controlla che il riproduttore sia collegato alla rete</string>
+    <string name="searching_for_players">Cercando i dispositivi&#8230;</string>
+    <string name="searching_for_players_more">Cercando i dispositivo&#8230;\nPer favore controlla che il dispositivo sia collegato alla tua rete</string>
     <string name="wifi">Wi-Fi</string>
     <string name="wifi_disconnected">Non connesso al Wi-Fi.</string>
     <string name="wifi_bandwidth">La larghezza di banda del tuo Wi-Fi potrebbe essere troppo bassa per riprodurre questo video agevolmente.\n\nSe hai registrato il video tu stesso, prova a usare impostazioni più moderate.</string>
@@ -20,7 +20,7 @@
     <string name="roku">Roku</string>
     <string name="upnp">UPNP</string>
     <string name="airplay">AirPlay</string>
-    <string name="select_playback_device">Seleziona il dispositivo di riproduzione&#8230;</string>
+    <string name="select_playback_device">Seleziona il dispositivo per la riproduzione&#8230;</string>
     <string name="buy_premium">Acquista la versione Premium</string>
     <string name="whats_new">Novità</string>
     <string name="rate">Valuta</string>
