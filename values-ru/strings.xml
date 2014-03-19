@@ -9,12 +9,12 @@
     <string name="searching_for_players_more">Идет поиск устройств&#8230;\n\nПожалуйста проверьте что ваш ТВ включен и подключен к сети.</string>
     <string name="wifi">Wi-Fi</string>
     <string name="wifi_disconnected">Не подключен к Wi-Fi.</string>
-    <string name="wifi_bandwidth">Скорость вашего Wi-Fi подключения может быть недостаточна для плавного воспроизведения.\n\nЕсли вы записывали это видео, попробуйте более щадащие настройки.</string>
+    <string name="wifi_bandwidth">Скорость вашего Wi-Fi подключения может быть недостаточна для плавного воспроизведения.\n\nЕсли вы записывали это видео, попробуйте более щадящее настройки.</string>
     <string name="make_default">Сделать это устройство по умолчанию?</string>
     <string name="default_device">Устройство по умолчанию</string>
     <string name="login">Войти</string>
     <string name="no_logins">Невозможно войти. Вы не настроили ваш Google аккаунт.</string>
-    <string name="no_localhost">Для воспроизведения файлов с устройства используйте галлерею.</string>
+    <string name="no_localhost">Для воспроизведения файлов с устройства используйте галерею.</string>
     <string name="dlna_renderer">DLNA Renderer</string>
     <string name="roku">Roku</string>
     <string name="upnp">UPNP</string>
@@ -40,7 +40,7 @@
     <string name="apple_tv">Apple TV</string>
     <string name="xbox">Xbox</string>
     <string name="chromecast">Chromecast</string>
-    <string name="gallery">Галлерея</string>
+    <string name="gallery">Галерея</string>
     <string name="media">Медиа</string>
     <string name="muzei">Muzei</string>
     <string name="settings">настройки</string>
