@@ -3,13 +3,13 @@
     <string name="app_name">AllCast</string>
     <string name="app_name_premium">AllCast Premium</string>
     <string name="now_playing">Проигрывается</string>
-    <string name="no_media_playback">No Media playback in progress</string>
+    <string name="no_media_playback">Ничего не проигрывается</string>
     <string name="connect_to_device">Подключиться к устройству</string>
     <string name="searching_for_players">Поиск устройств&#8230;</string>
     <string name="searching_for_players_more">Идет поиск устройств&#8230;\n\nПожалуйста проверьте что ваш ТВ включен и подключен к сети.</string>
     <string name="wifi">Wi-Fi</string>
     <string name="wifi_disconnected">Не подключен к Wi-Fi.</string>
-    <string name="wifi_bandwidth">Скорость вашего Wi-Fi подключения может быть недостаточна для плавного воспроизведения.\n\nЕсли вы записывали это видео, попробуйте более щадящее настройки.</string>
+    <string name="wifi_bandwidth">Скорость вашего Wi-Fi подключения может быть недостаточна для плавного воспроизведения.\n\nЕсли вы записывали это видео, попробуйте более щадящие настройки.</string>
     <string name="make_default">Сделать это устройство по умолчанию?</string>
     <string name="default_device">Устройство по умолчанию</string>
     <string name="login">Войти</string>
