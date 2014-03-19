@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">AllCast</string>
     <string name="app_name_premium">AllCast Premium</string>
-    <string name="now_playing">Riproducendo ora</string>
+    <string name="now_playing">In riproduzione</string>
     <string name="no_media_playback">Nessuna riproduzione di media in corso</string>
     <string name="connect_to_device">Connetti al dispositivo</string>
     <string name="searching_for_players">Cercando riproduttori&#8230;</string>
