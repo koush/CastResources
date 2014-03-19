@@ -4,12 +4,12 @@
     <string name="app_name_premium">AllCast Premium</string>
     <string name="now_playing">Speelt Nu</string>
     <string name="no_media_playback">Geen Media aan het afspelen</string>
-    <string name="connect_to_device">Verbind Met Apparraat</string>
-    <string name="searching_for_players">Aan het zoeken naar spelers&#8230;</string>
-    <string name="searching_for_players_more">Aan het zoeken naar spelers&#8230;\n\nVerifieer a.u.b. dat uw TV aan staat en verbonden is met het netwerk.</string>
+    <string name="connect_to_device">Verbind Met Apparaat</string>
+    <string name="searching_for_players">Aan het zoeken naar afspeelbare apparaten&#8230;</string>
+    <string name="searching_for_players_more">Aan het zoeken naar afspeelbare apparaten&#8230;\n\nVerifieer a.u.b. dat uw TV aan staat en verbonden is met het netwerk.</string>
     <string name="wifi">Wi-Fi</string>
     <string name="wifi_disconnected">Niet verbonden met Wi-Fi.</string>
-    <string name="wifi_bandwidth">Uw Wi-Fi bandbreedte is mogelijks onvoldoende snel om deze video vlot af te spelen.\n\nAls u deze video zelf opgenomen hebt, probeer meer conservatieve instellingen te gebruiken.</string>
+    <string name="wifi_bandwidth">Uw Wi-Fi bandbreedte is mogelijks onvoldoende snel om deze video vlot af te spelen.\n\nAls u deze video zelf opgenomen hebt, probeer dan meer conservatieve instellingen te gebruiken.</string>
     <string name="make_default">Stel dit apparaat in als standaardinstelling?</string>
     <string name="default_device">Standaardapparaat</string>
     <string name="login">Log in</string>
@@ -19,7 +19,7 @@
     <string name="roku">Roku</string>
     <string name="upnp">UPNP</string>
     <string name="airplay">AirPlay</string>
-    <string name="select_playback_device">Selecteer Afspeelapparaat&#8230;</string>
+    <string name="select_playback_device">Selecteer Afspeelbaar apparaat&#8230;</string>
     <string name="buy_premium">Koop Premium</string>
     <string name="rate">Waardeer</string>
     <string name="whats_new">Nieuwigheden</string>
