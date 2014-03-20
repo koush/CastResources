@@ -6,10 +6,10 @@
     <string name="no_media_playback">Aucun média en lecture</string>
     <string name="connect_to_device">Connexion à l\'appareil</string>
     <string name="searching_for_players">Recherche de lecteurs&#8230;</string>
-    <string name="searching_for_players_more">Recherche de lecteurs&#8230;\n\nSVP vérifiez que votre TV est allumée et connéctée au réseau.</string>
+    <string name="searching_for_players_more">Recherche de lecteurs&#8230;\n\nSVP vérifiez que votre TV est allumée et connectée au réseau.</string>
     <string name="wifi">Wi-Fi</string>
     <string name="wifi_disconnected">Non connecté au Wi-Fi.</string>
-    <string name="wifi_bandwidth">Votre bande passante Wi-Fi peut être insufisant pour lire cette vidéo correctement.\n\nSi vous avez enregistez cette vidéo vous même, essayer d\'autres paramètres.</string>
+    <string name="wifi_bandwidth">Votre bande passante Wi-Fi est peut être insufisante pour lire cette vidéo correctement.\n\nSi vous avez enregistez cette vidéo vous même, essayer d\'autres paramètres.</string>
     <string name="make_default">Mettre cet appareil par défaut?</string>
     <string name="default_device">Appareil par défaut</string>
     <string name="login">Connexion</string>
@@ -19,8 +19,8 @@
     <string name="roku">Roku</string>
     <string name="upnp">UPNP</string>
     <string name="airplay">AirPlay</string>
-    <string name="select_playback_device">Selectionnez un lecteur&#8230;</string>
-    <string name="buy_premium">Acheter Premium</string>
+    <string name="select_playback_device">Sélectionnez un lecteur&#8230;</string>
+    <string name="buy_premium">Acheter la version Premium</string>
     <string name="rate">Noter</string>
     <string name="whats_new">Nouveautés</string>
     <string name="all">Tous</string>
@@ -50,7 +50,7 @@
     <string name="open_source_projects">Projets Open Source</string>
     <string name="bitrate">Débit</string>
     <string name="adaptive">Adaptatif</string>
-    <string name="bitrate_help">Si la lecture vidéo saccade, ajustez le débit dans les paramètres AllCast.\n\nTrouvez le débit qui correspond le mieux à votre réseau. Faibles débits lise plus fluidement, mais à faible qualité.</string>
+    <string name="bitrate_help">Si la lecture vidéo saccade, ajustez le débit dans les paramètres AllCast.\n\nTrouvez le débit qui correspond le mieux à votre réseau. Faibles débits se lisent plus fluidement, mais à faible qualité.</string>
     <string name="rss">RSS</string>
     <string name="other">Autres</string>
     <string name="cloud">Cloud</string>
@@ -58,5 +58,5 @@
     <string name="media_server">Serveur multimédia</string>
     <string name="google_plus">Google+</string>
     <string name="dlna_proxy">Proxy serveur multimédia</string>
-    <string name="dlna_proxy_summary">Téléchargez les vidéo sur votre Android acant de les envoyer sur votre Smart TV. Cela peut résoudre les problème avec les TV Samsung et autres.</string>
+    <string name="dlna_proxy_summary">Téléchargez les vidéo sur votre Android avant de les envoyer sur votre Smart TV. Cela peut résoudre les problèmes avec les TV Samsung et autres.</string>
 </resources>
