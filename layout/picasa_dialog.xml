@@ -8,8 +8,8 @@
     <TextView
             android:textColor="@color/action_bar_red"
             android:minHeight="64dp"
-            android:paddingStart="16dip"
-            android:paddingEnd="16dip"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
             android:gravity="center_vertical|start"
             android:fontFamily="sans-serif-condensed"
             style="@android:style/TextAppearance.Large"
@@ -19,7 +19,7 @@
 
     <View android:id="@+id/titleDivider"
           android:layout_width="match_parent"
-          android:layout_height="2dip"
+          android:layout_height="2dp"
           android:background="@color/action_bar_red" />
 
     <ListView
