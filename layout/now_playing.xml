@@ -87,6 +87,14 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"/>
             <ImageButton
+                    android:visibility="gone"
+                    android:id="@+id/cc"
+                    android:background="#00000000"
+                    android:src="@drawable/ic_action_cc"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+            <ImageButton
                     android:id="@+id/jump"
                     android:background="#00000000"
                     android:src="@drawable/ic_action_av_jump"

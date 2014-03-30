@@ -59,4 +59,5 @@
     <string name="google_plus">Google+</string>
     <string name="dlna_proxy">Media Server Proxy</string>
     <string name="dlna_proxy_summary">Download web videos to your Android before sending to your Smart TV. This may fix issues with Samsung TVs and others.</string>
+    <string name="dropbox">Dropbox</string>
 </resources>
