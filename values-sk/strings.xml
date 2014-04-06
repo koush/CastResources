@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AllCast</string>
-    <string name="app_name_premium">AllCast Premium</string>
     <string name="now_playing">Práve sa prehráva</string>
     <string name="no_media_playback">Neprebieha žiadne prehrávanie médií</string>
     <string name="connect_to_device">Pripojiť sa k zariadeniu</string>
@@ -15,7 +13,7 @@
     <string name="login">Prihlásiť sa</string>
     <string name="no_logins">Nemožno sa prihlásiť. Nemáte nastavený žiadny účet Google.</string>
     <string name="no_localhost">Na prehrávanie lokálnych súborov použite Galériu.</string>
-    <string name="dlna_renderer">Vykreslovač DLNA</string>
+    <string name="dlna_renderer">Renderer DLNA</string>
     <string name="roku">Roku</string>
     <string name="upnp">UPNP</string>
     <string name="airplay">AirPlay</string>
@@ -59,4 +57,5 @@
     <string name="google_plus">Google+</string>
     <string name="dlna_proxy">Proxy servera médií</string>
     <string name="dlna_proxy_summary">Stiahnuť videá z webu do vášho Android zariadenia pred odoslaním do vášho Smart TV. Toto môže vyriešiť problémy so Samsung TV a ostatnými.</string>
+    <string name="dropbox">Dropbox</string>
 </resources>
