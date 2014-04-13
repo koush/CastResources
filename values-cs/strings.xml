@@ -32,6 +32,7 @@
     <string name="rename_device">Přejmenovat zařízení</string>
     <string name="added_to_playlist">Přidáno do seznamu skladeb</string>
     <string name="gallery">Galerie</string>
+    <string name="media">Média</string>
     <string name="settings">nastavení</string>
     <string name="performance">Výkon</string>
     <string name="video_quality">Kvalita lokálního videa (datový tok)</string>
@@ -45,4 +46,6 @@
     <string name="media_server">Média server</string>
     <string name="dlna_proxy">Média server proxy</string>
     <string name="dlna_proxy_summary">Před posláním k zobrazení nejprve obsah stáhnout do zařízení Android. Touto volbou je možné opravit problémy s televizemi Samsung či jinými.</string>
+    <string name="redeem_code">Použít slevový kód</string>
+    <string name="install_allcast_firetv">Nainstalovat AllCast na Amazon Fire TV</string>
 </resources>
