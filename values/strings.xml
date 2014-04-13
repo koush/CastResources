@@ -63,4 +63,5 @@
     <string name="redeem_code">Redeem Code</string>
     <string name="amazon_fire_tv">Amazon Fire TV</string>
     <string name="install_allcast_firetv">Install AllCast on your Amazon Fire TV</string>
+    <string name="google_drive">Google Drive</string>
 </resources>
