@@ -6,7 +6,7 @@
     <string name="no_media_playback">Nessuna riproduzione di media in corso</string>
     <string name="connect_to_device">Connetti al dispositivo</string>
     <string name="searching_for_players">Cercando i dispositivi&#8230;</string>
-    <string name="searching_for_players_more">Cercando i dispositivo&#8230;\nPer favore controlla che il dispositivo sia collegato alla tua rete</string>
+    <string name="searching_for_players_more">Cercando i dispositivo&#8230;\nPer favore controlla che il dispositivo sia connesso alla tua rete</string>
     <string name="wifi">Wi-Fi</string>
     <string name="wifi_disconnected">Non connesso al Wi-Fi.</string>
     <string name="wifi_bandwidth">La larghezza di banda del tuo Wi-Fi potrebbe essere troppo bassa per riprodurre questo video agevolmente.\n\nSe hai registrato il video tu stesso, prova a usare impostazioni più moderate.</string>
