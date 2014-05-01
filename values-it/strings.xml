@@ -6,7 +6,7 @@
     <string name="no_media_playback">Nessuna riproduzione di media in corso</string>
     <string name="connect_to_device">Connetti al dispositivo</string>
     <string name="searching_for_players">Cercando i dispositivi&#8230;</string>
-    <string name="searching_for_players_more">Cercando i dispositivo&#8230;\nPer favore controlla che il dispositivo sia connesso alla tua rete</string>
+    <string name="searching_for_players_more">Cercando i dispositivi&#8230;\nPer favore controlla che il dispositivo sia connesso alla tua rete</string>
     <string name="wifi">Wi-Fi</string>
     <string name="wifi_disconnected">Non connesso al Wi-Fi.</string>
     <string name="wifi_bandwidth">La larghezza di banda del tuo Wi-Fi potrebbe essere troppo bassa per riprodurre questo video agevolmente.\n\nSe hai registrato il video tu stesso, prova a usare impostazioni più moderate.</string>
@@ -15,7 +15,6 @@
     <string name="login">Login</string>
     <string name="no_logins">Impossibile effettuare il login. Non hai impostato nessun account Google.</string>
     <string name="no_localhost">Per riprodurre file locali, usa la Galleria.</string>
-    <string name="dlna_server">Server DLNA</string>
     <string name="dlna_renderer">Renderer DLNA</string>
     <string name="roku">Roku</string>
     <string name="upnp">UPNP</string>
@@ -60,4 +59,9 @@
     <string name="google_plus">Google+</string>
     <string name="dlna_proxy">Proxy Media Server</string>
     <string name="dlna_proxy_summary">Scarica i video web prima di inviarli al tuo device alla tua Smart TV. Questo potrebbe risolvere i problemi con le TV Samsung e altre.</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="redeem_code">Riscatta Codice</string>
+    <string name="amazon_fire_tv">Amazon Fire TV</string>
+    <string name="install_allcast_firetv">Installa AllCast nella tua Amazon Fire TV</string>
+    <string name="google_drive">Google Drive</string>
 </resources>
