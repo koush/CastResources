@@ -48,4 +48,7 @@
     <string name="dlna_proxy_summary">Před posláním k zobrazení nejprve obsah stáhnout do zařízení Android. Touto volbou je možné opravit problémy s televizemi Samsung či jinými.</string>
     <string name="redeem_code">Použít slevový kód</string>
     <string name="install_allcast_firetv">Nainstalovat AllCast na Amazon Fire TV</string>
+    <string name="google_drive">Disk Google</string>
+    <string name="google_music">Hudba Google Play</string>
+    <string name="enable_allcast_google_music">Povolit zařízení AllCast v Hudba Google Play. Je vyžadován root.</string>
 </resources>
