@@ -67,4 +67,5 @@
     <string name="google_music">Google Music</string>
     <string name="enable_allcast_google_music">Enable AllCast devices in Google Music. Requires root.</string>
     <string name="sonos">Sonos</string>
+    <string name="music_restart">Google Music has been enabled to support AllCast devices. Press ok to restart to complete setup.</string>
 </resources>

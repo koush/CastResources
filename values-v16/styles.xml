@@ -16,4 +16,8 @@
         <item name="android:fontFamily">sans-serif-condensed</item>
         <item name="android:textAllCaps">true</item>
     </style>
+
+    <style name="ListItemTitle" parent="android:style/TextAppearance.Large">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
 </resources>

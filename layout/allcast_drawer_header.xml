@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#E0E0E0">
+
+    <LinearLayout
+            android:gravity="center_vertical"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:paddingRight="?attr/listPreferredItemPaddingRight"
+            android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+            android:id="@+id/allcast_drawer_header_clickable"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+        <ImageView
+                android:id="@+id/allcast_device_icon"
+                android:layout_width="@android:dimen/app_icon_size"
+                android:layout_height="@android:dimen/app_icon_size"
+                android:src="@drawable/ic_apple_tv"/>
+
+        <TextView
+                android:id="@+id/allcast_device"
+                android:layout_marginLeft="@dimen/section_padding"
+                style="@android:style/TextAppearance.Large"
+                android:textColor="#404040"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="28sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
