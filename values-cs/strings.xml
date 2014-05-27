@@ -51,4 +51,5 @@
     <string name="google_drive">Disk Google</string>
     <string name="google_music">Hudba Google Play</string>
     <string name="enable_allcast_google_music">Povolit zařízení AllCast v Hudba Google Play. Je vyžadován root.</string>
+    <string name="music_restart">Aplikace Hudba Google Play nyní podporuje všechny AllCast zařízení. Tlačítkem Ok bude proveden restart a dokoncčení nastavení.</string>
 </resources>
