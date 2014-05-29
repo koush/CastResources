@@ -64,4 +64,9 @@
     <string name="amazon_fire_tv">Amazon Fire TV</string>
     <string name="install_allcast_firetv">Installa AllCast nella tua Amazon Fire TV</string>
     <string name="google_drive">Google Drive</string>
+    <string name="google_music">Google Music</string>
+    <string name="enable_allcast_google_music">Abilita i device AllCast in Google Music. Richiede i permessi di root.</string>
+    <string name="sonos">Sonos</string>
+    <string name="music_restart">Google Music è stato abilitato al supporto dei device AllCast. Premi ok per riavviare al fine di completare il setup.</string>
+
 </resources>
