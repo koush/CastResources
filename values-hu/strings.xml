@@ -59,4 +59,13 @@
     <string name="google_plus">Google+</string>
     <string name="dlna_proxy">Media Server Proxy</string>
     <string name="dlna_proxy_summary">A webes videókat előbb töltse le készülékére, mielőtt a Smart TV-re küldené. Ez megoldhatja a Samsung TV-kel, vagy más eszközökkel tapasztalható gondokat.</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="redeem_code">Kódbeváltás</string>
+    <string name="amazon_fire_tv">Amazon Fire TV</string>
+    <string name="install_allcast_firetv">AllCast telepítése Amazon Fire TV készülékre</string>
+    <string name="google_drive">Google Drive</string>
+    <string name="google_music">Google Zene</string>
+    <string name="enable_allcast_google_music">AllCast eszközök bekapcsolása a Google Music-ban. Rendszergazdai (root) hozzáférés szükséges.</string>
+    <string name="sonos">Sonos</string>
+    <string name="music_restart">A Google Zene már támogatja AllCast eszközeit. Nyomja meg az OK gombot az alkalmazás újraindításához és a beállítás befejezéséhez.</string>
 </resources>
