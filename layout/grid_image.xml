@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.koushikdutta.cast.PlayableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                       android:layout_width="match_parent"
                                       android:layout_height="match_parent"
                                       android:padding="4dp"
@@ -15,36 +15,12 @@
             android:layout_gravity="center"
             android:gravity="center"/>
 
-    <FrameLayout
+    <com.koushikdutta.cast.SquaredImageView
             android:gravity="center"
             android:layout_gravity="center"
-            android:id="@+id/badge_overlay"
+            android:id="@+id/badge"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-        <com.koushikdutta.cast.SquaredImageView
-                android:id="@+id/badge"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:alpha=".7"
-                android:src="@drawable/ic_av_play"/>
-    </FrameLayout>
-
-    <FrameLayout
-            android:background="#3e3e3e3e"
-            android:id="@+id/overlay"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-        <com.koushikdutta.cast.SquaredImageView
-                android:id="@+id/play"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                />
-
-        <com.koushikdutta.cast.SquaredImageView
-                android:id="@+id/progress"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
-    </FrameLayout>
-</com.koushikdutta.cast.PlayableLayout>
+            android:layout_height="wrap_content"
+            android:alpha=".7"
+            android:src="@drawable/ic_av_play"/>
+</FrameLayout>
