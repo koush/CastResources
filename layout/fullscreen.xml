@@ -1,29 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:background="@android:color/black"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
 
     <android.support.v4.view.ViewPager
-            android:layout_weight="1"
             android:id="@+id/pager"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             />
 
-    <View
+    <LinearLayout
+            android:background="#C0000000"
+            android:padding="20dp"
+            android:gravity="top|center"
             android:layout_width="match_parent"
-            android:layout_height="1dip"
-            android:layout_marginLeft="4dip"
-            android:layout_marginRight="4dip"
-            android:background="?android:attr/dividerVertical"
-            android:layout_alignParentTop="true"/>
+            android:layout_height="wrap_content">
 
-    <ImageButton
-            android:id="@+id/stop"
-            android:src="@drawable/ic_action_stop"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"/>
-</LinearLayout>
+        <TextView
+                android:id="@+id/title"
+                style="@android:style/TextAppearance.Large"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:background="#C0000000"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:layout_gravity="bottom"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageButton
+                    android:id="@+id/stop"
+                    android:background="#00000000"
+                    android:src="@drawable/ic_action_av_stop"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
