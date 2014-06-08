@@ -69,4 +69,5 @@
     <string name="sonos">Sonos</string>
     <string name="music_restart">Google Music has been enabled to support AllCast devices. Press ok to restart to complete setup.</string>
     <string name="browser">Browser</string>
+    <string name="stop">Stop</string>
 </resources>
