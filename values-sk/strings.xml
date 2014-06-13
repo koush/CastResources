@@ -66,4 +66,6 @@
     <string name="enable_allcast_google_music">Povoliť AllCast zariadenia v Hudbe Google. Vyžaduje sa root.</string>
     <string name="sonos">Sonos</string>
     <string name="music_restart">Hudba Google teraz podporuje AllCast zariadenia. Stlačte tlačidlo OK pre reštart na dokončenie nastavenia.</string>
+    <string name="browser">Prehliadač</string>
+    <string name="stop">Zastaviť</string>
 </resources>
