@@ -5,11 +5,11 @@
              android:layout_height="match_parent">
 
     <ImageView
-            android:scaleType="centerCrop"
+            android:scaleType="centerInside"
             android:layout_gravity="center"
             android:id="@+id/cover_art"
             android:alpha=".7"
-            android:src="@drawable/ic_no_media"
+            android:src="@drawable/web_hi_res_512"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
@@ -120,6 +120,7 @@
         </LinearLayout>
 
         <TextView
+                android:visibility="gone"
                 android:id="@+id/time"
                 android:layout_gravity="center"
                 android:textColor="@android:color/white"
