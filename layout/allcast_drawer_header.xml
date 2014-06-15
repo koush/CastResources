@@ -3,7 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent"
+              android:layout_height="wrap_content"
               android:background="#E0E0E0">
 
     <LinearLayout
@@ -15,7 +15,7 @@
             android:id="@+id/allcast_drawer_header_clickable"
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:focusable="true"
@@ -25,7 +25,7 @@
                 android:id="@+id/allcast_device_icon"
                 android:layout_width="@android:dimen/app_icon_size"
                 android:layout_height="@android:dimen/app_icon_size"
-                android:src="@drawable/ic_apple_tv"/>
+                android:src="@drawable/ic_chromecast"/>
 
         <TextView
                 android:id="@+id/allcast_device"
