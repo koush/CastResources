@@ -27,7 +27,7 @@
             <TextView
                     android:paddingLeft="8dp"
                     android:layout_gravity="center_vertical"
-                    style="@android:style/TextAppearance.Medium"
+                    style="@style/NotificationTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/now_playing"
@@ -36,6 +36,7 @@
         </LinearLayout>
 
         <TextView
+                style="@style/NotificationLine2"
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -52,6 +53,7 @@
             android:layout_height="wrap_content">
 
         <ImageButton
+                android:tint="@color/notification_color_mask"
                 style="?android:attr/buttonBarButtonStyle"
                 android:id="@+id/stop"
                 android:src="@drawable/ic_action_av_stop"
@@ -65,6 +67,7 @@
                 android:background="@android:drawable/divider_horizontal_dark"/>
 
         <ImageButton
+                android:tint="@color/notification_color_mask"
                 style="?android:attr/buttonBarButtonStyle"
                 android:id="@+id/playback_toggle"
                 android:src="@drawable/ic_action_av_pause"
@@ -80,6 +83,7 @@
 
 
         <ImageButton
+                android:tint="@color/notification_color_mask"
                 style="?android:attr/buttonBarButtonStyle"
                 android:id="@+id/replay"
                 android:src="@drawable/ic_action_av_replay"
