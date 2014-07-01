@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="CastActionBar" parent="@android:style/Widget.Material.Light.ActionBar">
+    <style name="AndroidTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
+    </style>
+
+    <style name="CastActionBar" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
         <item name="android:background">@color/action_bar_red</item>
-        <item name="android:titleTextStyle">@style/CastActionBarTitleText</item>
     </style>
 
     <style name="CastAlertDialogTheme" parent="android:Theme.Material.Light.Dialog.NoActionBar">
@@ -10,7 +14,11 @@
         <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
     </style>
 
-    <style name="CastActionBarTitleText" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
-        <item name="android:textColor">@android:color/white</item>
+    <style name="RobotoTextViewStyle" parent="android:Widget.Material.Light.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Material.Light.Button">
+        <item name="android:fontFamily">sans-serif-light</item>
     </style>
 </resources>

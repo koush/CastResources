@@ -12,13 +12,8 @@
         <item name="showcaseViewStyle">@style/ShowcaseView.Light</item>
     </style>
 
-    <style name="CastActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+    <style name="CastActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="android:background">@color/action_bar_red</item>
-        <item name="android:titleTextStyle">@style/CastActionBarTitleText</item>
-    </style>
-
-    <style name="CastActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
-        <item name="android:textColor">@android:color/white</item>
     </style>
 
     <style name="CastAlertDialogTheme" parent="android:Theme.Holo.Light.Dialog.NoActionBar">
