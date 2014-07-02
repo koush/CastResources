@@ -2,4 +2,6 @@
 <resources>
     <color name="action_bar_red">#c74b46</color>
     <color name="action_bar_light_red">#ff7067</color>
+    <color name="action_bar_dark_red">#B54440</color>
+    <color name="action_bar_accent">#46C774</color>
 </resources>

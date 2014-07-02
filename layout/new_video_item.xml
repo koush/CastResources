@@ -8,6 +8,7 @@
             android:layout_height="wrap_content"/>
 
     <LinearLayout
+            android:id="@+id/textarea"
             android:background="#C0000000"
             android:padding="8dp"
             android:layout_gravity="bottom"
