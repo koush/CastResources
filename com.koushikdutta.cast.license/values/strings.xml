@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AllCast Premium</string>
+
+    <string name="install_free_text">AllCast Premium is just the License Key for AllCast. You must also install the Free version found on the Google Play. This icon will disappear when the free version is installed. Thanks for being a Premium user! :)</string>
+    <string name="thanks">AllCast Premium is just the License Key for AllCast. You must keep the Free version installed on your phone as well. This icon will remove itself from your application tray the next time your Home application restarts. Thanks!</string>
+</resources>
