@@ -69,4 +69,6 @@
     <string name="browser">Prehliadač</string>
     <string name="stop">Zastaviť</string>
     <string name="slideshow">Prezentácia</string>
+    <string name="pause_on_call">Pozastaviť pri prichádzajúcom hovore</string>
+    <string name="thanks_for_purchase">Ďakujeme za váš nákup!</string>
 </resources>
