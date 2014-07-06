@@ -73,4 +73,5 @@
     <string name="slideshow">Slideshow</string>
     <string name="pause_on_call">Pause on Incoming Call</string>
     <string name="thanks_for_purchase">Thanks for your purchase!</string>
+    <string name="photo_albums">Albums</string>
 </resources>
