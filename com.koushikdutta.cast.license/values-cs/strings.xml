@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AllCast Prémium</string>
+
+    <string name="install_free_text">AllCast Prémium je pouze licenční klíč pro aplikaci AllCast. Pro správné chování musíte mít nainstalovanou vlastní aplikaci AllCast
+    z obchodu Google Play. Tato ikona bude poté odstraněna. Děkuji za podporu a zakoupení verze Prémium! :)</string>
+    <string name="thanks">AllCast Prémium je pouze licenční klíč pro aplikaci AllCast. Na svém zařízení musíte ponechat nainstalovanou vlastní aplikaci AllCast.
+    Tato ikona bude odstraněna z liště poté, co restartujete spouštěč. Děkuji!</string>
+</resources>
