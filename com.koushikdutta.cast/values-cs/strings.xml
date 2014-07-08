@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name_premium">AllCast Prémium</string>
     <string name="now_playing">Přehrává se</string>
     <string name="no_media_playback">Nepřehrává se nic</string>
     <string name="connect_to_device">Nelze navázat spojení</string>
@@ -14,7 +15,7 @@
     <string name="no_localhost">Pro přehrávání lokálních souborů použijte prosím Galerii.</string>
     <string name="dlna_renderer">DLNA konvertor</string>
     <string name="select_playback_device">Zvolte zařízení pro přehrávání\u2026</string>
-    <string name="buy_premium">Zakoupit verzi Premium</string>
+    <string name="buy_premium">Zakoupit verzi Prémium</string>
     <string name="rate">Ohodnotit</string>
     <string name="whats_new">Co je nového</string>
     <string name="all">Vše</string>
@@ -54,4 +55,7 @@
     <string name="music_restart">Aplikace Hudba Google Play nyní podporuje všechny AllCast zařízení. Tlačítkem Ok bude proveden restart a dokoncčení nastavení.</string>
     <string name="browser">Prohlížeč</string>
     <string name="slideshow">Prezentace</string>
+    <string name="pause_on_call">Pozastavit při příchozím hovoru</string>
+    <string name="thanks_for_purchase">Děkuji za zakoupení!</string>
+    <string name="photo_albums">Alba</string>
 </resources>
