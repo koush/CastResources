@@ -7,7 +7,7 @@
         <item name="listHeaderTextColor">@android:color/black</item>
         <item name="android:icon">@drawable/ic_action_home</item>
         <item name="icon">@drawable/ic_action_home</item>
-        <item name="itemLayoutHeight">240dp</item>
+        <item name="ratio">1.5</item>
     </style>
 
     <style name="CastActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
@@ -40,6 +40,6 @@
     </style>
 
     <style name="CastTheme.LandscapeItem">
-        <item name="itemLayoutHeight">120dp</item>
+        <item name="ratio">.5625</item>
     </style>
 </resources>

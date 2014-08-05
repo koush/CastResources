@@ -1,4 +1,4 @@
-<FrameLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:auto="http://schemas.android.com/apk/res-auto"
              xmlns:android="http://schemas.android.com/apk/res/android"
              android:layout_width="fill_parent"
              android:layout_height="wrap_content"
@@ -10,10 +10,12 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content">
 
-        <ImageView
+        <com.koushikdutta.cast.RatioImageView
                 android:id="@android:id/icon"
+                auto:ratio="?attr/ratio"
+                android:scaleType="fitXY"
                 android:layout_width="fill_parent"
-                android:layout_height="?attr/itemLayoutHeight"/>
+                android:layout_height="fill_parent"/>
 
         <LinearLayout
                 android:id="@+id/textarea"

@@ -4,4 +4,5 @@
     <color name="action_bar_light_red">#ff7067</color>
     <color name="action_bar_dark_red">#B54440</color>
     <color name="action_bar_accent">#46C774</color>
+    <color name="image_loading">#C0C0C0C0</color>
 </resources>

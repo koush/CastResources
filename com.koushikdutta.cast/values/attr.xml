@@ -2,4 +2,5 @@
 <resources>
     <attr name="largeIconTheme" format="reference" />
     <attr name="itemLayoutHeight" format="dimension" />
+    <attr name="ratio" format="float" />
 </resources>
