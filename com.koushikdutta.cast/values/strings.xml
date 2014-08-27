@@ -74,4 +74,7 @@
     <string name="pause_on_call">Pause on Incoming Call</string>
     <string name="thanks_for_purchase">Thanks for your purchase!</string>
     <string name="photo_albums">Albums</string>
+    <string name="recent">Recent</string>
+    <string name="allcast_splash">AllCast Splash Screen</string>
+    <string name="allcast_splash_description">Display splash screen on startup</string>
 </resources>
