@@ -72,4 +72,7 @@
     <string name="pause_on_call">Pozastaviť pri prichádzajúcom hovore</string>
     <string name="thanks_for_purchase">Ďakujeme za váš nákup!</string>
     <string name="photo_albums">Albumy</string>
+    <string name="recent">Nedávne</string>
+    <string name="allcast_splash">Úvodná obrazovka AllCast</string>
+    <string name="allcast_splash_description">Zobraziť úvodnú obrazovku po spustení aúlikácie</string>
 </resources>
