@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="install_free_text">AllCast Premium je len licenčný kľúč pre AllCast. Musíte nainštalovať aj bezplatnú verziu z Obchodu Play. Táto ikona zmizne, keď bude nainštalovaná bezplatná verzia. Ďakujeme, že ste prémiový používateľ! :)</string>
-    <string name="thanks">AllCast Premium je len licenčný kľúč pre AllCast. Tiež musíte ponechať nainštalovanú bezplatnú verziu vo vašom zariadení. Táto ikona sa sama odstráni po budúcom reštarte vašej domovskej aplikácie. Ďakujeme!</string>
+    <string name="thanks">AllCast Premium je len licenčný kľúč pre AllCast. Musíte taktiež ponechať nainštalovanú bezplatnú verziu vo vašom zariadení. Táto ikona sa sama odstráni po budúcom reštarte vašej domovskej aplikácie. Ďakujeme!</string>
 </resources>
