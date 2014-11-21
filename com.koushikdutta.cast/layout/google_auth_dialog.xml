@@ -8,8 +8,8 @@
     <TextView
             android:textColor="@color/action_bar_red"
             android:minHeight="64dp"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
             android:gravity="center_vertical|start"
             android:fontFamily="sans-serif-condensed"
             style="@android:style/TextAppearance.Large"

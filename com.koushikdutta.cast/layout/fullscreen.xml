@@ -20,7 +20,6 @@
         <TextView
                 android:paddingLeft="20dp"
                 android:layout_gravity="center_vertical"
-                android:text="test"
                 android:id="@+id/title"
                 style="@android:style/TextAppearance.Large"
                 android:textColor="@android:color/white"
