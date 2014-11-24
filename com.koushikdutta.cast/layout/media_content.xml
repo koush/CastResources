@@ -6,12 +6,14 @@
               android:orientation="vertical">
 
     <com.astuetz.PagerSlidingTabStrip
-            cast:pstsTabPaddingLeftRight="0dp"
-            cast:pstsIndicatorColor="@color/action_bar_red"
+            android:elevation="10dp"
             cast:pstsShouldExpand="true"
             android:id="@+id/tabs"
+            cast:pstsIndicatorColor="@android:color/white"
             android:layout_width="match_parent"
-            android:layout_height="48dp" />
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:textColor="@android:color/white" />
 
     <android.support.v4.view.ViewPager
             android:id="@+id/pager"

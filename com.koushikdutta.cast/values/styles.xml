@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="AndroidTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
     <style name="CastTheme" parent="AppTheme">
         <item name="colorPrimary">@color/action_bar_red</item>
         <item name="colorPrimaryDark">@color/action_bar_dark_red</item>
