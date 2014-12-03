@@ -79,4 +79,5 @@
     <string name="allcast_splash_description">Display splash screen on startup</string>
     <string name="google_play_services">Google Play Services</string>
     <string name="google_play_services_no_chromecast">Google Play Services is not available on this Android device. Chromecast casting is not available.</string>
+    <string name="number_songs">%s songs</string>
 </resources>

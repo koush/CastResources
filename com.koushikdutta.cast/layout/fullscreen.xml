@@ -15,10 +15,11 @@
             android:background="#C0000000"
             android:gravity="top|center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="?attr/actionBarSize">
 
         <TextView
                 android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:layout_gravity="center_vertical"
                 android:id="@+id/title"
                 style="@android:style/TextAppearance.Large"

@@ -35,11 +35,12 @@
             android:layout_height="wrap_content"/>
 
     <LinearLayout
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:background="#C0000000"
-            android:padding="20dp"
-            android:gravity="top|center"
+            android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="?attr/actionBarSize">
 
         <TextView
                 android:text="@string/no_media_playback"
@@ -119,24 +120,46 @@
                     android:layout_height="wrap_content"/>
         </LinearLayout>
 
-        <TextView
-                android:visibility="gone"
-                android:id="@+id/time"
-                android:layout_gravity="center"
-                android:textColor="@android:color/white"
-                style="@android:style/TextAppearance.Small"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-
-
-        <SeekBar
+        <LinearLayout
+                android:id="@+id/time_info"
                 android:visibility="gone"
                 android:paddingBottom="10dp"
-                android:id="@+id/seek"
-                android:thumb="@drawable/now_playing_seekbar_thumb"
-                android:progressDrawable="@drawable/now_playing_seekbar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:textSize="10sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:id="@+id/time"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <SeekBar
+                    android:maxHeight="4dp"
+                    android:id="@+id/seek"
+                    android:thumb="@drawable/now_playing_seekbar_thumb"
+                    android:progressDrawable="@drawable/now_playing_seekbar"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:textSize="10sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:id="@+id/elapsed"
+                    android:layout_gravity="center"
+                    android:textColor="@android:color/white"
+                    style="@android:style/TextAppearance.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
         <FrameLayout
                 android:layout_gravity="center"
                 android:id="@+id/ad_holder"
