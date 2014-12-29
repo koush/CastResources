@@ -75,4 +75,7 @@
     <string name="recent">Nedávne</string>
     <string name="allcast_splash">Úvodná obrazovka AllCast</string>
     <string name="allcast_splash_description">Zobraziť úvodnú obrazovku po spustení aplikácie</string>
+    <string name="google_play_services">Služby Google Play</string>
+    <string name="google_play_services_no_chromecast">Služby Google Play nie sú dostupné na tomto Android zariadení. Vysielanie cez Chromecast nie je dostupné.</string>
+    <string name="number_songs">Skladby: %s</string>
 </resources>
