@@ -6,7 +6,7 @@
               android:layout_height="match_parent">
 
     <TextView
-            android:textColor="@color/action_bar_red"
+            android:textColor="?attr/colorPrimary"
             android:minHeight="64dp"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
@@ -20,7 +20,7 @@
     <View android:id="@+id/titleDivider"
           android:layout_width="match_parent"
           android:layout_height="2dp"
-          android:background="@color/action_bar_red" />
+          android:background="?attr/colorPrimary" />
 
     <ListView
             android:id="@+id/listview"

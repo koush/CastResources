@@ -17,13 +17,7 @@
         <clip>
             <shape>
                 <corners android:radius="5dp" />
-                <gradient
-                        android:startColor="@color/action_bar_light_red"
-                        android:centerColor="@color/action_bar_light_red"
-                        android:centerY="0.75"
-                        android:endColor="@color/action_bar_light_red"
-                        android:angle="270"
-                        />
+                <solid android:color="?attr/colorPrimary" />
             </shape>
         </clip>
     </item>
@@ -35,8 +29,8 @@
                 <corners
                         android:radius="5dp" />
                 <gradient
-                        android:startColor="@color/action_bar_red"
-                        android:endColor="@color/action_bar_red"
+                        android:startColor="?attr/colorPrimaryDark"
+                        android:endColor="?attr/colorPrimaryDark"
                         android:angle="270" />
             </shape>
         </clip>

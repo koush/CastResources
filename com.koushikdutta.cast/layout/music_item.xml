@@ -1,43 +1,47 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_gravity="center_vertical"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:paddingTop="1dp"
-              android:paddingBottom="1dp"
-              android:paddingLeft="8dp"
-              android:paddingRight="8dp">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
 
     <com.makeramen.RoundedImageView
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            android:layout_margin="4dp"
             android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/boilerplate_list_item_layout_horizontalMargin"
             android:id="@android:id/icon"
-            app:riv_corner_radius="30dip"
             app:riv_oval="true"
-            android:layout_width="48dp"
-            android:layout_height="48dp"/>
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
 
-    <LinearLayout
-            android:padding="4dp"
-            android:layout_gravity="center_vertical"
+    <FrameLayout
+            android:layout_marginLeft="@dimen/boilerplate_list_item_second_column_horizontalMargin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:layout_height="72dp">
 
-        <TextView
-                style="@android:style/TextAppearance.Medium"
-                android:id="@android:id/text1"
-                android:layout_width="wrap_content"
+        <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical" />
+                android:orientation="vertical"
+                >
 
-        <TextView
-                android:fontFamily="sans-serif-condensed"
-                android:id="@android:id/text2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical" />
-    </LinearLayout>
-</LinearLayout>
+            <TextView
+                    style="@style/TextAppearance.AppCompat.Subhead"
+                    android:id="@android:id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"/>
 
+            <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:id="@android:id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <FrameLayout
+                android:layout_gravity="bottom"
+                android:background="#E0E0E0"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+    </FrameLayout>
+</FrameLayout>

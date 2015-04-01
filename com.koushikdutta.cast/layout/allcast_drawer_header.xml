@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:background="#E0E0E0">
+              android:layout_height="wrap_content">
+
+    <com.koushikdutta.boilerplate.ResizableImageView
+            android:src="@drawable/drawer_art_fish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
     <LinearLayout
-            android:gravity="center_vertical"
-            android:paddingTop="12dp"
-            android:paddingBottom="12dp"
-            android:paddingRight="?attr/listPreferredItemPaddingRight_"
-            android:paddingLeft="?attr/listPreferredItemPaddingLeft_"
             android:id="@+id/allcast_drawer_header_clickable"
-            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="?android:attr/selectableItemBackground"
-            android:clickable="true"
-            android:focusable="true"
-            >
-
-        <ImageView
-                android:id="@+id/allcast_device_icon"
-                android:layout_width="@android:dimen/app_icon_size"
-                android:layout_height="@android:dimen/app_icon_size"
-                android:src="@drawable/ic_chromecast"/>
-
+            android:layout_height="wrap_content">
         <TextView
                 android:id="@+id/allcast_device"
-                android:layout_marginLeft="@dimen/section_padding"
-                style="@android:style/TextAppearance.Large"
-                android:textColor="#404040"
-                android:fontFamily="sans-serif-condensed"
-                android:textSize="28sp"
+                android:text="Living Room"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:text="connected"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@android:color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
     </LinearLayout>
-</LinearLayout>
+
+</FrameLayout>

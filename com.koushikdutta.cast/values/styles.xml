@@ -3,19 +3,24 @@
     <style name="AndroidTheme" parent="Theme.AppCompat.Light.NoActionBar" />
 
     <style name="CastTheme" parent="AppTheme">
-        <item name="colorPrimary">@color/action_bar_red</item>
-        <item name="colorPrimaryDark">@color/action_bar_dark_red</item>
-        <item name="colorAccent">@color/action_bar_accent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
         <item name="largeIconTheme">@style/CastTheme.LargeIcon</item>
         <item name="listHeaderTextColor">@android:color/black</item>
         <item name="ratio">1</item>
+        <item name="android:textColorPrimary">#61615E</item>
+    </style>
+
+    <style name="CastThemeCandy">
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="CastAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog">
     </style>
 
     <style name="CastTheme.LargeIcon">
-        <item name="iconSize">@android:dimen/app_icon_size</item>
+        <item name="listItemIconSize">@android:dimen/app_icon_size</item>
     </style>
 
     <style name="Separator">

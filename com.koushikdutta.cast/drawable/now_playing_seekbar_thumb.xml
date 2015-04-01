@@ -4,8 +4,8 @@
 
     <gradient
             android:angle="270"
-            android:endColor="@color/action_bar_light_red"
-            android:startColor="@color/action_bar_light_red" />
+            android:endColor="?attr/colorPrimary"
+            android:startColor="?attr/colorPrimary" />
 
     <size
             android:height="30dp"
