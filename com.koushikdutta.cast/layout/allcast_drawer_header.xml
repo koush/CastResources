@@ -4,7 +4,7 @@
               android:layout_height="wrap_content">
 
     <com.koushikdutta.boilerplate.ResizableImageView
-            android:src="@drawable/drawer_art_fish"
+            android:id="@+id/drawer_art"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

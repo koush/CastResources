@@ -17,7 +17,7 @@
         <clip>
             <shape>
                 <corners android:radius="5dp" />
-                <solid android:color="?attr/colorPrimary" />
+                <solid android:color="@color/colorPrimary" />
             </shape>
         </clip>
     </item>
@@ -29,8 +29,8 @@
                 <corners
                         android:radius="5dp" />
                 <gradient
-                        android:startColor="?attr/colorPrimaryDark"
-                        android:endColor="?attr/colorPrimaryDark"
+                        android:startColor="@color/colorPrimaryDark"
+                        android:endColor="@color/colorPrimaryDark"
                         android:angle="270" />
             </shape>
         </clip>

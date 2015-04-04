@@ -15,7 +15,8 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            android:textColor="@android:color/white" />
+            app:pstsTextColorSelected="@android:color/white"
+            android:textColor="#96FFFFFF" />
 
     <android.support.v4.view.ViewPager
             android:id="@+id/pager"
