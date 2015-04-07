@@ -1,33 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:app="http://schemas.android.com/apk/res-auto"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical">
+<com.koushikdutta.boilerplate.ScrollingToolbarLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/scrolling_toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <com.astuetz.PagerSlidingTabStrip
-            android:elevation="10dp"
-            app:pstsTextStyle="normal"
-            app:pstsTextSelectedStyle="normal"
-            app:pstsShouldExpand="true"
-            android:id="@+id/tabs"
-            app:pstsIndicatorColor="@color/colorAccent"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:pstsTextColorSelected="@android:color/white"
-            android:textColor="#96FFFFFF" />
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-    <android.support.v4.view.ViewPager
-            android:id="@+id/pager"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+                <android.support.v4.view.ViewPager
+                        android:id="@+id/pager"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
 
-    <LinearLayout
-            android:id="@+id/footer_container"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"/>
+                <LinearLayout
+                        android:id="@+id/footer_container"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"/>
 
-</LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:elevation="10dp"
+                android:background="?attr/colorPrimary"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height" />
+
+                <android.support.v7.widget.Toolbar
+                        app:title="@string/app_name"
+                        android:id="@+id/toolbar"
+                        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        />
+
+                <com.astuetz.PagerSlidingTabStrip
+                        app:pstsTextStyle="normal"
+                        app:pstsTextSelectedStyle="normal"
+                        app:pstsShouldExpand="true"
+                        android:id="@+id/tabs"
+                        app:pstsIndicatorColor="@color/colorAccent"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="?attr/colorPrimary"
+                        app:pstsTextColorSelected="@android:color/white"
+                        android:textColor="#96FFFFFF"/>
+
+        </LinearLayout>
+
+</com.koushikdutta.boilerplate.ScrollingToolbarLayout>

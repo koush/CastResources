@@ -13,7 +13,7 @@
     <TextView
             android:visibility="gone"
             android:id="@+id/empty"
-            style="@android:style/TextAppearance.Large"
+            style="@style/TextAppearance.AppCompat.Display3"
             android:text="@string/no_media_found"
             android:gravity="center"
             android:layout_width="match_parent"
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"/>
 
         <TextView
-                style="@android:style/TextAppearance.Large"
+                style="@style/TextAppearance.AppCompat.Display3"
                 android:text="@string/loading"
                 android:gravity="center"
                 android:layout_width="match_parent"
