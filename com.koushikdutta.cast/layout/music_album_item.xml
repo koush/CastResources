@@ -1,0 +1,59 @@
+<FrameLayout xmlns:auto="http://schemas.android.com/apk/res-auto"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+        >
+
+    <com.koushikdutta.cast.RatioFrameLayout
+            auto:ratio="1"
+            android:layout_margin="2dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@android:id/icon"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+
+        <LinearLayout
+                android:id="@+id/textarea"
+                android:background="#C0000000"
+                android:padding="8dp"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+            <TextView
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="@android:color/white"
+                    style="@style/Base.TextAppearance.AppCompat.Body2"
+                    android:id="@android:id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"/>
+
+            <TextView
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="@android:color/white"
+                    style="@style/Base.TextAppearance.AppCompat.Body2"
+                    android:id="@+id/album_artist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"/>
+
+            <TextView
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="@android:color/white"
+                    style="@style/Base.TextAppearance.AppCompat.Body2"
+                    android:id="@android:id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+    </com.koushikdutta.cast.RatioFrameLayout>
+</FrameLayout>

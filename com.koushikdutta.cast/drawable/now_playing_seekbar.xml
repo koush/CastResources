@@ -2,22 +2,16 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@android:id/background">
         <shape>
-            <corners android:radius="5dp" />
-            <gradient
-                    android:startColor="@android:color/white"
-                    android:centerColor="@android:color/darker_gray"
-                    android:centerY="0.75"
-                    android:endColor="@android:color/darker_gray"
-                    android:angle="270"
-                    />
+            <corners android:radius="2dp"/>
+            <solid android:color="@android:color/transparent"/>
         </shape>
     </item>
 
     <item android:id="@android:id/secondaryProgress">
         <clip>
             <shape>
-                <corners android:radius="5dp" />
-                <solid android:color="@color/colorPrimary" />
+                <corners android:radius="5dp"/>
+                <solid android:color="@android:color/white"/>
             </shape>
         </clip>
     </item>
@@ -27,11 +21,8 @@
         <clip>
             <shape>
                 <corners
-                        android:radius="5dp" />
-                <gradient
-                        android:startColor="@color/colorPrimaryDark"
-                        android:endColor="@color/colorPrimaryDark"
-                        android:angle="270" />
+                        android:radius="2dp"/>
+                <solid android:color="@android:color/white"/>
             </shape>
         </clip>
     </item>

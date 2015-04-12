@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:app="http://schemas.android.com/apk/res-auto"
              android:background="@android:color/black"
@@ -17,7 +16,7 @@
             android:id="@+id/photoswipe_toolbar"
             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            android:background="#C0000000"
+            android:background="@drawable/gradient_fade_to_translucent"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             />

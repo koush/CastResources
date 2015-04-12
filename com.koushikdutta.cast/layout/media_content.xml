@@ -34,6 +34,7 @@
                 android:layout_height="wrap_content">
 
                 <FrameLayout
+                        android:background="?attr/colorPrimaryDark"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height" />
 

@@ -44,7 +44,6 @@
             <com.melnykov.fab.FloatingActionButton
                     android:layout_below="@id/backdrop_frame"
                     android:layout_alignParentRight="true"
-                    android:visibility="invisible"
                     android:id="@+id/fab"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
