@@ -15,7 +15,7 @@
     </style>
 
     <style name="CastTheme.LargeIcon">
-        <item name="iconSize">@android:dimen/app_icon_size</item>
+        <item name="listItemIconSize">@android:dimen/app_icon_size</item>
     </style>
 
     <style name="Separator">
