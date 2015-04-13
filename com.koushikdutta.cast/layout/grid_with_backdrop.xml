@@ -3,7 +3,6 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/scrolling_toolbar_layout"
-        android:clipChildren="false"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -11,7 +10,6 @@
     <!--Need this to ensure that the imageview is clipped, because the FAB button needs-->
     <!--the parent to not have clipping to work properly-->
     <FrameLayout
-            android:clipChildren="true"
             android:layout_width="match_parent"
             android:layout_height="@dimen/icon_list_drawer_activity_backdrop_height">
     <ImageView
@@ -23,7 +21,6 @@
     </FrameLayout>
 
     <FrameLayout
-            android:clipChildren="false"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -32,30 +29,16 @@
                 android:elevation="10dp"
                 />
 
-        <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-            <FrameLayout
-                    android:layout_alignParentTop="true"
-                    android:layout_marginBottom="28dp"
-                    android:id="@+id/backdrop_frame"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/icon_list_drawer_activity_backdrop_height" />
-            <com.melnykov.fab.FloatingActionButton
-                    android:translationY="50dp"
-                    android:layout_below="@id/backdrop_frame"
-                    android:layout_alignParentRight="true"
-                    android:id="@+id/fab"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|right"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginTop="-56dp"
-                    android:src="@drawable/ic_action_av_play"
-                    app:fab_colorNormal="?attr/colorPrimary"
-                    app:fab_colorPressed="?attr/colorPrimaryDark"
-                    app:fab_colorRipple="?attr/colorPrimaryDark"/>
-        </RelativeLayout>
+        <com.melnykov.fab.FloatingActionButton
+                android:layout_gravity="right"
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ic_action_av_play"
+                app:fab_colorNormal="?attr/colorPrimary"
+                app:fab_colorPressed="?attr/colorPrimaryDark"
+                app:fab_colorRipple="?attr/colorPrimaryDark"/>
     </FrameLayout>
 
 
