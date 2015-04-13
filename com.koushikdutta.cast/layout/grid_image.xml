@@ -24,5 +24,19 @@
                 android:layout_height="wrap_content"
                 android:alpha=".7"
                 android:src="@drawable/ic_av_play"/>
+
+        <TextView
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:gravity="center_vertical"
+                android:layout_gravity="bottom"
+                android:padding="4dp"
+                android:visibility="invisible"
+                android:id="@+id/name"
+                android:background="#C0000000"
+                android:textColor="@android:color/white"
+                style="@style/TextAppearance.AppCompat.Caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
     </com.koushikdutta.cast.RatioFrameLayout>
 </FrameLayout>

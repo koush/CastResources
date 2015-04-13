@@ -34,7 +34,7 @@
 
         <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
             <FrameLayout
                     android:layout_alignParentTop="true"
                     android:layout_marginBottom="28dp"
@@ -42,6 +42,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/icon_list_drawer_activity_backdrop_height" />
             <com.melnykov.fab.FloatingActionButton
+                    android:translationY="50dp"
                     android:layout_below="@id/backdrop_frame"
                     android:layout_alignParentRight="true"
                     android:id="@+id/fab"

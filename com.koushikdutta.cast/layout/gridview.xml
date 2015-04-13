@@ -14,14 +14,14 @@
     <TextView
             android:visibility="gone"
             android:id="@+id/empty"
-            style="@style/TextAppearance.AppCompat.Display3"
+            style="@style/TextAppearance.AppCompat.Subhead"
             android:text="@string/no_media_found"
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
     <LinearLayout
-            android:gravity="top"
+            android:gravity="center"
             android:visibility="gone"
             android:id="@+id/loading"
             android:layout_width="match_parent"
@@ -38,7 +38,6 @@
 
         <TextView
                 android:paddingTop="17dp"
-                android:textColor="#D1D1D1"
                 style="@style/TextAppearance.AppCompat.Subhead"
                 android:text="@string/loading"
                 android:gravity="center"
