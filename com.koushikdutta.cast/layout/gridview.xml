@@ -28,10 +28,9 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-        <com.koushikdutta.boilerplate.TintedProgressBar
-                app:tint="@color/colorAccent"
+        <ProgressBar
                 android:layout_marginTop="-7dp"
-                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                style="@style/Widget.AppCompat.ProgressBar"
                 android:indeterminate="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />

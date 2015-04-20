@@ -11,15 +11,25 @@
             android:layout_height="fill_parent"
             />
 
-    <android.support.v7.widget.Toolbar
+
+    <LinearLayout
             android:elevation="10dp"
-            android:id="@+id/photoswipe_toolbar"
-            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-            android:background="@drawable/gradient_fade_to_translucent"
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            />
+            android:layout_height="wrap_content">
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height"/>
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/photoswipe_toolbar"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:background="@drawable/gradient_fade_to_translucent"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                />
+    </LinearLayout>
 
     <LinearLayout
             android:background="#C0000000"
@@ -34,13 +44,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-            <ImageButton
+            <com.koushikdutta.boilerplate.TintedImageView
+                    app:stateListFilter="inverse"
                     android:id="@+id/stop"
                     android:background="@android:color/transparent"
-                    android:src="@drawable/ic_action_av_stop"
+                    android:src="@drawable/ic_playback_stop"
                     android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:layout_height="?attr/actionBarSize"/>
+                    android:layout_height="16dp"/>
 
             <FrameLayout
                     android:layout_weight="1"
@@ -64,11 +75,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="?attr/actionBarSize"/>
 
-                    <ImageView
-                            android:src="@drawable/ic_action_av_pause"
+                    <com.koushikdutta.boilerplate.TintedImageView
+                            app:stateListFilter="inverse"
+                            android:src="@drawable/ic_playback_pause"
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
-                            android:layout_height="?attr/actionBarSize"/>
+                            android:layout_height="16dp"/>
                 </FrameLayout>
 
                 <ImageButton

@@ -10,6 +10,7 @@
         <item name="listHeaderTextColor">@android:color/black</item>
         <item name="ratio">1</item>
         <item name="android:textColorPrimary">#61615E</item>
+        <item name="android:textColorPrimaryInverse">@android:color/white</item>
     </style>
 
     <style name="CastThemeCandy">

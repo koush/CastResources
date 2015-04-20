@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
              android:layout_gravity="center"
@@ -16,14 +17,15 @@
                 android:layout_height="match_parent"
                 />
 
-        <ImageView
+        <com.koushikdutta.boilerplate.TintedImageView
+                app:stateListFilter="inverse"
                 android:gravity="center"
                 android:layout_gravity="center"
                 android:id="@+id/badge"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
                 android:alpha=".7"
-                android:src="@drawable/ic_av_play"/>
+                android:src="@drawable/ic_playback_play"/>
 
         <TextView
                 android:ellipsize="end"
