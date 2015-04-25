@@ -5,11 +5,11 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
-    <com.koushikdutta.cast.HeaderGridView
-            android:id="@+id/abslist"
+    <com.koushikdutta.boilerplate.recyclerview.GridRecyclerView
+            android:id="@+id/gridview"
+            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:numColumns="3"/>
+            android:layout_height="0dp" />
 
     <TextView
             android:visibility="gone"
@@ -17,15 +17,17 @@
             style="@style/TextAppearance.AppCompat.Subhead"
             android:text="@string/no_media_found"
             android:gravity="center"
+            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="0dp" />
 
     <LinearLayout
             android:gravity="center"
             android:visibility="gone"
             android:id="@+id/loading"
+            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="0dp"
             android:orientation="vertical">
 
         <ProgressBar
