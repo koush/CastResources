@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:width="32dp"
+                  android:height="32dp"/>
+            <solid android:color="#D8D8D8" />
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/ic_action_filebrowser" android:left="12dp" android:top="12dp" android:right="12dp" android:bottom="12dp" />
+</layer-list>

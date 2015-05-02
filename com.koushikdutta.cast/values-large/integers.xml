@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <integer name="grid_columns">3</integer>
-    <integer name="video_grid_columns">2</integer>
+    <integer name="album_grid_columns">3</integer>
 </resources>

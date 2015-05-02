@@ -18,24 +18,13 @@
                 android:layout_height="0dp"
                 android:layout_weight="1">
 
-            <FrameLayout
+            <com.koushikdutta.boilerplate.TintedImageView
                     android:layout_gravity="center_vertical"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                <com.makeramen.RoundedImageView
-                        android:layout_gravity="center"
-                        android:src="#D8D8D8"
-                        app:riv_oval="true"
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"/>
-                <com.koushikdutta.boilerplate.TintedImageView
-                        app:stateListFilter="normal"
-                        android:scaleType="centerInside"
-                        android:layout_gravity="center"
-                        android:src="@drawable/ic_action_filebrowser"
-                        android:layout_width="14dp"
-                        android:layout_height="14dp"/>
-            </FrameLayout>
+                    android:id="@android:id/icon"
+                    app:stateListFilter="normal"
+                    android:src="@drawable/folder_with_background"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"/>
 
             <com.koushikdutta.boilerplate.TintedTextView
                     style="@style/TextAppearance.AppCompat.Body2"

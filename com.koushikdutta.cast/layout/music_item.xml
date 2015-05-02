@@ -3,16 +3,16 @@
              android:layout_width="match_parent"
              android:layout_height="wrap_content">
 
-    <com.makeramen.RoundedImageView
+    <ImageView
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="@dimen/boilerplate_list_item_layout_horizontalMargin"
             android:id="@android:id/icon"
-            app:riv_oval="true"
-            android:layout_width="40dp"
-            android:layout_height="40dp"/>
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
 
     <FrameLayout
             android:layout_marginLeft="@dimen/boilerplate_list_item_second_column_horizontalMargin"
+            android:layout_marginRight="36dp"
             android:layout_width="match_parent"
             android:layout_height="72dp">
 
@@ -37,6 +37,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"/>
         </LinearLayout>
+
+        <com.koushikdutta.boilerplate.TintedImageView
+                app:stateListFilter="normal"
+                android:src="@drawable/ic_action_navigation_more_vert"
+                android:layout_gravity="center_vertical|right"
+                android:id="@+id/music_overflow"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_height="32dp"/>
 
         <FrameLayout
                 android:layout_gravity="bottom"
