@@ -6,6 +6,7 @@
               android:layout_height="match_parent">
 
     <LinearLayout
+            android:id="@+id/toolbar_container"
             android:elevation="10dp"
             android:orientation="vertical"
             android:background="?attr/colorPrimary"

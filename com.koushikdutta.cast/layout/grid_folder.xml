@@ -35,10 +35,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
         </LinearLayout>
-        <FrameLayout
-                android:background="#E0E0E0"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"/>
+        <!--<FrameLayout-->
+                <!--android:background="#E0E0E0"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"/>-->
     </LinearLayout>
 
 </FrameLayout>
