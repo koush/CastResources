@@ -45,9 +45,9 @@
                 android:layout_height="wrap_content">
 
             <com.koushikdutta.boilerplate.TintedImageView
+                    android:layout_gravity="center_vertical"
                     app:stateListFilter="inverse"
                     android:id="@+id/stop"
-                    android:background="@android:color/transparent"
                     android:src="@drawable/ic_playback_stop"
                     android:layout_weight="1"
                     android:layout_width="0dp"
@@ -56,7 +56,7 @@
             <FrameLayout
                     android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content">
+                    android:layout_height="?attr/actionBarSize">
 
                 <FrameLayout
                         android:id="@+id/slideshow"
@@ -83,13 +83,14 @@
                             android:layout_height="16dp"/>
                 </FrameLayout>
 
-                <ImageButton
+                <com.koushikdutta.boilerplate.TintedImageView
+                        app:stateListFilter="inverse"
                         android:id="@+id/slideshow_image"
                         android:background="@android:color/transparent"
-                        android:src="@drawable/ic_action_images_slideshow"
+                        android:src="@drawable/ic_playback_play"
                         android:layout_gravity="center"
-                        android:layout_width="match_parent"
-                        android:layout_height="?attr/actionBarSize"/>
+                        android:layout_width="wrap_content"
+                        android:layout_height="16dp"/>
             </FrameLayout>
 
         </LinearLayout>

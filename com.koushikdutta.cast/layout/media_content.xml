@@ -48,8 +48,6 @@
                         />
 
                 <com.astuetz.PagerSlidingTabStrip
-                        app:pstsTextStyle="normal"
-                        app:pstsTextSelectedStyle="normal"
                         app:pstsShouldExpand="true"
                         android:id="@+id/tabs"
                         app:pstsIndicatorColor="@color/colorAccent"
