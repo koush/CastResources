@@ -65,54 +65,54 @@
             android:layout_width="match_parent"
             android:layout_height="112dp">
 
+        <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/time_info"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
+
             <LinearLayout
-                    android:orientation="vertical"
-                    android:id="@+id/time_info"
-                    android:visibility="gone"
-                    android:layout_width="fill_parent"
-                    android:layout_height="50dp">
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
 
-                    <LinearLayout
-                            android:paddingLeft="16dp"
-                            android:paddingRight="16dp"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="match_parent"
-                            android:layout_height="0dp">
-
-                            <TextView
-                                    android:id="@+id/time"
-                                    android:gravity="left"
-                                    android:textColor="@android:color/white"
-                                    style="@style/TextAppearance.AppCompat.Body1"
-                                    android:layout_weight="1"
-                                    android:layout_width="0dp"
-                                    android:layout_height="wrap_content"/>
+                <TextView
+                        android:id="@+id/time"
+                        android:gravity="left"
+                        android:textColor="@android:color/white"
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
 
 
-                            <TextView
-                                    android:id="@+id/elapsed"
-                                    android:gravity="right"
-                                    android:layout_gravity="center"
-                                    android:textColor="@android:color/white"
-                                    style="@style/TextAppearance.AppCompat.Body1"
-                                    android:layout_weight="1"
-                                    android:layout_width="0dp"
-                                    android:layout_height="wrap_content"/>
+                <TextView
+                        android:id="@+id/elapsed"
+                        android:gravity="right"
+                        android:layout_gravity="center"
+                        android:textColor="@android:color/white"
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
 
-
-                    </LinearLayout>
-
-                    <SeekBar
-                            android:layout_marginTop="16dp"
-                            android:maxHeight="4dp"
-                            android:id="@+id/seek"
-                            android:thumb="@drawable/now_playing_seekbar_thumb"
-                            android:progressDrawable="@drawable/now_playing_seekbar"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"/>
 
             </LinearLayout>
+
+            <SeekBar
+                    android:layout_marginTop="16dp"
+                    android:maxHeight="4dp"
+                    android:id="@+id/seek"
+                    android:thumb="@drawable/now_playing_seekbar_thumb"
+                    android:progressDrawable="@drawable/now_playing_seekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
 
         <LinearLayout
                 android:paddingBottom="10dp"
@@ -122,22 +122,47 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp">
 
-            <ImageButton
-                    android:visibility="gone"
+            <FrameLayout
                     android:id="@+id/replay"
-                    android:background="#00000000"
-                    android:src="@drawable/ic_action_av_replay"
-                    android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"/>
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
 
-            <ImageButton
-                    android:id="@+id/stop"
-                    android:background="#00000000"
-                    android:src="@drawable/ic_action_av_stop"
+                <com.koushikdutta.boilerplate.TintedImageView
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        app:stateListFilter="inverse"
+                        android:src="@drawable/ic_action_jumpback"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"/>
+
+                <TextView
+                        android:paddingLeft="7dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="10"
+                        android:textColor="@android:color/black"
+                        android:textSize="10sp"
+                        style="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+            </FrameLayout>
+
+            <com.koushikdutta.boilerplate.TintedImageView
+                    android:id="@+id/prev"
+                    app:stateListFilter="inverse"
+                    android:src="@drawable/ic_playback_back"
                     android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="16dp"/>
+
+            <com.koushikdutta.boilerplate.TintedImageView
+                    android:id="@+id/stop"
+                    app:stateListFilter="inverse"
+                    android:src="@drawable/ic_playback_stop"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="16dp"/>
 
             <ImageButton
                     android:visibility="gone"
@@ -157,14 +182,40 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"/>
 
-            <ImageButton
-                    android:visibility="gone"
-                    android:id="@+id/jump"
-                    android:background="#00000000"
-                    android:src="@drawable/ic_action_av_jump"
+            <com.koushikdutta.boilerplate.TintedImageView
+                    android:id="@+id/next"
+                    app:stateListFilter="inverse"
+                    android:src="@drawable/ic_playback_forward"
                     android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="16dp"/>
+
+            <FrameLayout
+                    android:id="@+id/jump"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                <com.koushikdutta.boilerplate.TintedImageView
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        app:stateListFilter="inverse"
+                        android:src="@drawable/ic_action_jumpforward"
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"/>
+
+                <TextView
+                        android:paddingRight="7dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="30"
+                        android:textColor="@android:color/black"
+                        android:textSize="10sp"
+                        style="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+            </FrameLayout>
+
         </LinearLayout>
 
         <FrameLayout

@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+    <TextView
+            android:visibility="gone"
+            android:id="@+id/empty"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:text="@string/no_media_found"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
 
-    <View
-            android:layout_width="wrap_content"
-            android:layout_height="48dp"/>
-</LinearLayout>
+    <LinearLayout
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/loading"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+        <ProgressBar
+                android:layout_marginTop="-7dp"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:indeterminate="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:paddingTop="17dp"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:text="@string/loading"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</merge>

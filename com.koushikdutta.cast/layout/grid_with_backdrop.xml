@@ -24,12 +24,28 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        <include
-                layout="@layout/gridview"
-                android:elevation="10dp"
-                />
+        <com.koushikdutta.boilerplate.recyclerview.GridRecyclerView
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        <LinearLayout
+                android:paddingTop="@dimen/icon_list_drawer_activity_backdrop_height"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent">
+
+            <include layout="@layout/grid_empty" />
+
+            <LinearLayout
+                    android:id="@+id/footer_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"/>
+        </LinearLayout>
 
         <com.koushikdutta.cast.InverseFloatingActionButton
+                android:layout_marginTop="-28dp"
                 app:stateListFilter="inverse"
                 android:layout_gravity="right"
                 android:id="@+id/fab"
