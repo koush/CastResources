@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.koushikdutta.boilerplate.ScrollingToolbarLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrolling_toolbar_layout"
               xmlns:app="http://schemas.android.com/apk/res-auto"
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <include
+                layout="@layout/gridview"
+                android:elevation="10dp"
+                />
+    </FrameLayout>
 
     <LinearLayout
             android:id="@+id/toolbar_container"
@@ -27,9 +38,4 @@
                 />
     </LinearLayout>
 
-    <include
-            layout="@layout/gridview"
-            android:elevation="10dp"
-            />
-
-</LinearLayout>
+</com.koushikdutta.boilerplate.ScrollingToolbarLayout>

@@ -13,6 +13,16 @@
         <item name="android:textColorPrimaryInverse">@android:color/white</item>
     </style>
 
+    <style name="CastThemeSearch" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorPrimaryInverse">@android:color/white</item>
+        <item name="android:selectableItemBackground">@android:color/white</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
     <style name="CastThemeCandy">
         <item name="colorAccent">@color/colorAccent</item>
     </style>
