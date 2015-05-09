@@ -1,54 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AndroidTheme" parent="Theme.AppCompat.Light.NoActionBar" />
-
-    <style name="CastTheme" parent="AppTheme">
+    <style name="CastTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorPrimary</item>
-        <item name="largeIconTheme">@style/CastTheme.LargeIcon</item>
-        <item name="listHeaderTextColor">@android:color/black</item>
-        <item name="ratio">1</item>
         <item name="android:textColorPrimary">#61615E</item>
         <item name="android:textColorPrimaryInverse">@android:color/white</item>
     </style>
 
-    <style name="CastThemeSearch" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@android:color/white</item>
-        <item name="colorPrimaryDark">@android:color/white</item>
-        <item name="colorAccent">@android:color/white</item>
-        <item name="android:textColorPrimary">@android:color/white</item>
-        <item name="android:textColorPrimaryInverse">@android:color/white</item>
-        <item name="android:selectableItemBackground">@android:color/white</item>
-        <item name="android:tint">@android:color/white</item>
-    </style>
-
-    <style name="CastThemeCandy">
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="CastTheme.Mint">
+        <item name="colorAccent">@color/colorAccentControls</item>
     </style>
 
     <style name="CastAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog">
-    </style>
-
-    <style name="CastTheme.LargeIcon">
-        <item name="listItemIconSize">@android:dimen/app_icon_size</item>
-    </style>
-
-    <style name="Separator">
-        <item name="android:layout_marginLeft">6dp</item>
-        <item name="android:layout_marginRight">6dp</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
-        <item name="android:background">#ffcccccc</item>
-    </style>
-
-    <style name="VideoTitle" parent="android:style/TextAppearance">
-        <item name="android:textAllCaps">true</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="ListItemTitle" parent="android:style/TextAppearance.Medium">
-        <item name="android:fontFamily">sans-serif-condensed</item>
     </style>
 
     <style name="CastTheme.PortraitItem">
