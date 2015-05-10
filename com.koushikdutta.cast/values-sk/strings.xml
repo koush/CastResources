@@ -29,12 +29,12 @@
     <string name="music">Hudba</string>
     <string name="audio">Zvuky</string>
     <string name="podcasts">Podcasty</string>
-    <string name="playlists">Zoznamy skladieb</string>
+    <string name="playlists">Zoznamy na prehrávanie</string>
     <string name="albums">Albumy</string>
     <string name="artists">Interpreti</string>
     <string name="unknown_artist">Neznámy interpret</string>
     <string name="rename_device">Premenovať zariadenie</string>
-    <string name="added_to_playlist">Pridané do zoznamu skladieb</string>
+    <string name="added_to_playlist">Pridané do zoznamu na prehrávanie</string>
     <string name="apple_tv">Apple TV</string>
     <string name="xbox">Xbox</string>
     <string name="chromecast">Chromecast</string>
@@ -78,4 +78,12 @@
     <string name="google_play_services">Služby Google Play</string>
     <string name="google_play_services_no_chromecast">Služby Google Play nie sú dostupné na tomto Android zariadení. Vysielanie cez Chromecast nie je dostupné.</string>
     <string name="number_songs">Skladby: %s</string>
+    <string name="go_to_album">Prejsť na album</string>
+    <string name="go_to_artist">Prejsť na interpreta</string>
+    <string name="play_next">Prehrať ďalšie</string>
+    <string name="add_to_playlist">Pridať do zoznamu na prehrávanie</string>
+    <string name="allcast_version">Verzia AllCast</string>
+    <string name="help_and_feedback">Pomoc a spätná väzba</string>
+    <string name="connected">pripojené</string>
+    <string name="stop_playback_and_exit">Zastaviť prehrávanie na %s a ukončiť AllCast?</string>
 </resources>
