@@ -44,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-            <com.koushikdutta.boilerplate.TintedImageView
+            <com.koushikdutta.boilerplate.tint.TintedImageView
                     android:layout_gravity="center_vertical"
                     app:stateListFilter="inverse"
                     android:id="@+id/stop"
@@ -75,7 +75,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="?attr/actionBarSize"/>
 
-                    <com.koushikdutta.boilerplate.TintedImageView
+                    <com.koushikdutta.boilerplate.tint.TintedImageView
                             app:stateListFilter="inverse"
                             android:src="@drawable/ic_playback_pause"
                             android:layout_gravity="center"
@@ -83,7 +83,7 @@
                             android:layout_height="16dp"/>
                 </FrameLayout>
 
-                <com.koushikdutta.boilerplate.TintedImageView
+                <com.koushikdutta.boilerplate.tint.TintedImageView
                         app:stateListFilter="inverse"
                         android:id="@+id/slideshow_image"
                         android:background="@android:color/transparent"

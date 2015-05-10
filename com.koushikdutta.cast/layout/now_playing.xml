@@ -128,7 +128,7 @@
                     android:layout_weight="1"
                     android:layout_height="match_parent">
 
-                <com.koushikdutta.boilerplate.TintedImageView
+                <com.koushikdutta.boilerplate.tint.TintedImageView
                         android:layout_gravity="center"
                         android:scaleType="fitCenter"
                         app:stateListFilter="inverse"
@@ -148,7 +148,7 @@
                         android:layout_height="wrap_content"/>
             </FrameLayout>
 
-            <com.koushikdutta.boilerplate.TintedImageView
+            <com.koushikdutta.boilerplate.tint.TintedImageView
                     android:id="@+id/prev"
                     app:stateListFilter="inverse"
                     android:src="@drawable/ic_playback_back"
@@ -156,7 +156,7 @@
                     android:layout_width="0dp"
                     android:layout_height="16dp"/>
 
-            <com.koushikdutta.boilerplate.TintedImageView
+            <com.koushikdutta.boilerplate.tint.TintedImageView
                     android:id="@+id/stop"
                     app:stateListFilter="inverse"
                     android:src="@drawable/ic_playback_stop"
@@ -182,7 +182,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"/>
 
-            <com.koushikdutta.boilerplate.TintedImageView
+            <com.koushikdutta.boilerplate.tint.TintedImageView
                     android:id="@+id/next"
                     app:stateListFilter="inverse"
                     android:src="@drawable/ic_playback_forward"
@@ -196,7 +196,7 @@
                     android:layout_weight="1"
                     android:layout_height="match_parent">
 
-                <com.koushikdutta.boilerplate.TintedImageView
+                <com.koushikdutta.boilerplate.tint.TintedImageView
                         android:layout_gravity="center"
                         android:scaleType="fitCenter"
                         app:stateListFilter="inverse"

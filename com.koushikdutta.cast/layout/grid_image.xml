@@ -17,7 +17,7 @@
                 android:layout_height="match_parent"
                 />
 
-        <com.koushikdutta.boilerplate.TintedImageView
+        <com.koushikdutta.boilerplate.tint.TintedImageView
                 app:stateListFilter="inverse"
                 android:gravity="center"
                 android:layout_gravity="center"

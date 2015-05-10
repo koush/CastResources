@@ -84,4 +84,8 @@
     <string name="go_to_artist">Go to artist</string>
     <string name="play_next">Play next</string>
     <string name="add_to_playlist">Add to Playlist</string>
+    <string name="allcast_version">AllCast Version</string>
+    <string name="help_and_feedback">Help and Feedback</string>
+    <string name="connected">connected</string>
+    <string name="stop_playback_and_exit">Stop playback on %s and exit AllCast?</string>
 </resources>

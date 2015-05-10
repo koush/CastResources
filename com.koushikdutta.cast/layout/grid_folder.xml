@@ -18,7 +18,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1">
 
-            <com.koushikdutta.boilerplate.TintedImageView
+            <com.koushikdutta.boilerplate.tint.TintedImageView
                     android:layout_gravity="center_vertical"
                     android:id="@android:id/icon"
                     app:stateListFilter="normal"
@@ -26,7 +26,7 @@
                     android:layout_width="32dp"
                     android:layout_height="32dp"/>
 
-            <com.koushikdutta.boilerplate.TintedTextView
+            <com.koushikdutta.boilerplate.tint.TintedTextView
                     style="@style/TextAppearance.AppCompat.Body2"
                     android:layout_marginLeft="16dp"
                     android:layout_gravity="center_vertical"

@@ -22,14 +22,14 @@
                 android:orientation="vertical"
                 >
 
-            <com.koushikdutta.boilerplate.TintedTextView
+            <com.koushikdutta.boilerplate.tint.TintedTextView
                     style="@style/TextAppearance.AppCompat.Subhead"
                     android:id="@android:id/text1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"/>
 
-            <com.koushikdutta.boilerplate.TintedTextView
+            <com.koushikdutta.boilerplate.tint.TintedTextView
                     style="@style/TextAppearance.AppCompat.Body1"
                     android:id="@android:id/text2"
                     android:layout_width="wrap_content"
@@ -37,7 +37,7 @@
                     android:layout_gravity="center_vertical"/>
         </LinearLayout>
 
-        <com.koushikdutta.boilerplate.TintedImageView
+        <com.koushikdutta.boilerplate.tint.TintedImageView
                 app:stateListFilter="normal"
                 android:src="@drawable/ic_action_navigation_more_vert"
                 android:layout_gravity="center_vertical|right"
