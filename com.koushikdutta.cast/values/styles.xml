@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="CastTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="CastThemBase" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:selectableItemBackground">@drawable/activated_background</item>
+    </style>
+
+    <style name="CastTheme" parent="CastThemBase">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorPrimary</item>
@@ -13,6 +17,11 @@
     </style>
 
     <style name="CastAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccentControls</item>
+        <item name="android:textColorPrimary">#61615E</item>
+        <item name="android:textColorPrimaryInverse">@android:color/white</item>
     </style>
 
     <style name="CastTheme.PortraitItem">

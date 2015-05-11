@@ -11,8 +11,7 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:gravity="center_vertical|start"
-            android:fontFamily="sans-serif-condensed"
-            style="@android:style/TextAppearance.Large"
+            style="@style/TextAppearance.AppCompat.Medium"
             android:text="@string/google_plus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>

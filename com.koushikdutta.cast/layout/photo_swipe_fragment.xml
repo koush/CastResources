@@ -17,6 +17,7 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
         <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height"/>
@@ -36,62 +37,69 @@
             android:layout_gravity="bottom"
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize">
+            android:layout_height="wrap_content">
 
         <LinearLayout
-                android:layout_gravity="center_vertical"
-                android:gravity="center_vertical"
+                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="?attr/actionBarSize">
 
-            <com.koushikdutta.boilerplate.tint.TintedImageView
+            <LinearLayout
                     android:layout_gravity="center_vertical"
-                    app:stateListFilter="inverse"
-                    android:id="@+id/stop"
-                    android:src="@drawable/ic_playback_stop"
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="16dp"/>
+                    android:gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-            <FrameLayout
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="?attr/actionBarSize">
+                <com.koushikdutta.boilerplate.tint.TintedImageView
+                        android:layout_gravity="center_vertical"
+                        app:stateListFilter="inverse"
+                        android:id="@+id/stop"
+                        android:src="@drawable/ic_playback_stop"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="16dp"/>
 
                 <FrameLayout
-                        android:id="@+id/slideshow"
-                        android:clickable="true"
-                        android:focusable="true"
-                        android:visibility="gone"
-                        android:background="?android:attr/selectableItemBackground"
-                        android:layout_gravity="center_vertical"
-                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
                         android:layout_height="?attr/actionBarSize">
 
-                    <ProgressBar
-                            android:layout_gravity="center"
-                            android:padding="0dp"
-                            android:layout_margin="0dp"
+                    <FrameLayout
+                            android:id="@+id/slideshow"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:visibility="gone"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:layout_gravity="center_vertical"
                             android:layout_width="match_parent"
-                            android:layout_height="?attr/actionBarSize"/>
+                            android:layout_height="?attr/actionBarSize">
+
+                        <ProgressBar
+                                android:layout_gravity="center"
+                                android:padding="0dp"
+                                android:layout_margin="0dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="?attr/actionBarSize"/>
+
+                        <com.koushikdutta.boilerplate.tint.TintedImageView
+                                app:stateListFilter="inverse"
+                                android:src="@drawable/ic_playback_pause"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="16dp"/>
+                    </FrameLayout>
 
                     <com.koushikdutta.boilerplate.tint.TintedImageView
                             app:stateListFilter="inverse"
-                            android:src="@drawable/ic_playback_pause"
+                            android:id="@+id/slideshow_image"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/ic_playback_play"
                             android:layout_gravity="center"
                             android:layout_width="wrap_content"
                             android:layout_height="16dp"/>
                 </FrameLayout>
 
-                <com.koushikdutta.boilerplate.tint.TintedImageView
-                        app:stateListFilter="inverse"
-                        android:id="@+id/slideshow_image"
-                        android:background="@android:color/transparent"
-                        android:src="@drawable/ic_playback_play"
-                        android:layout_gravity="center"
-                        android:layout_width="wrap_content"
-                        android:layout_height="16dp"/>
-            </FrameLayout>
+            </LinearLayout>
 
         </LinearLayout>
 
