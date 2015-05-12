@@ -169,20 +169,19 @@
                         android:layout_width="0dp"
                         android:layout_height="16dp"/>
 
-                <ImageButton
+                <com.koushikdutta.boilerplate.tint.TintedImageView
                         android:visibility="gone"
+                        app:stateListFilter="inverse"
                         android:id="@+id/cc"
-                        android:background="#00000000"
-                        android:src="@drawable/ic_action_cc"
+                        android:src="@drawable/ic_action_caption"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"/>
 
-                <ImageButton
+                <com.koushikdutta.boilerplate.tint.TintedImageView
                         android:visibility="gone"
                         android:id="@+id/headphones"
-                        android:background="#00000000"
-                        android:src="@drawable/ic_action_hardware_headphones"
+                        android:src="@drawable/ic_action_headset"
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"/>
