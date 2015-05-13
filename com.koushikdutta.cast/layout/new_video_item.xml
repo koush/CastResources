@@ -1,14 +1,14 @@
 <FrameLayout xmlns:auto="http://schemas.android.com/apk/res-auto"
              xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="fill_parent"
+             android:layout_width="match_parent"
              android:layout_height="wrap_content"
         >
 
     <com.koushikdutta.cast.RatioFrameLayout
             auto:ratio="?attr/ratio"
             android:layout_margin="2dp"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
         <ImageView
                 android:id="@android:id/icon"
