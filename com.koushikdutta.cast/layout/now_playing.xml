@@ -180,6 +180,7 @@
 
                 <com.koushikdutta.boilerplate.tint.TintedImageView
                         android:visibility="gone"
+                        app:stateListFilter="inverse"
                         android:id="@+id/headphones"
                         android:src="@drawable/ic_action_headset"
                         android:layout_weight="1"
