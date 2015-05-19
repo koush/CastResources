@@ -88,4 +88,5 @@
     <string name="help_and_feedback">Help and Feedback</string>
     <string name="connected">connected</string>
     <string name="stop_playback_and_exit">Stop playback on %s and exit AllCast?</string>
+    <string name="about">About</string>
 </resources>
