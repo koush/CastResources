@@ -5,6 +5,4 @@
     <color name="colorAccent">#FCED5D</color>
     <color name="colorAccentControls">#46C774</color>
     <color name="image_loading">#D8D8D8</color>
-
-    <color name="activated_color">#E8E8E8</color>
 </resources>
