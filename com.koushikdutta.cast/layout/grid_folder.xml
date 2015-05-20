@@ -21,7 +21,7 @@
             <com.koushikdutta.boilerplate.tint.TintedImageView
                     android:layout_gravity="center_vertical"
                     android:id="@android:id/icon"
-                    app:stateListFilter="normal"
+                    app:drawableFilterMode="normal"
                     android:src="@drawable/folder_with_background"
                     android:layout_width="32dp"
                     android:layout_height="32dp"/>

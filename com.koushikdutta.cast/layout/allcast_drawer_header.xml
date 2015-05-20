@@ -46,7 +46,7 @@
                 <com.koushikdutta.boilerplate.tint.TintedImageView
                         android:layout_gravity="center"
                         android:src="@drawable/ic_arrow_drop_down"
-                        app:stateListFilter="inverse"
+                        app:drawableFilterMode="inverse"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         />
@@ -65,7 +65,7 @@
                 android:layout_gravity="center"
                 android:id="@+id/settings"
                 android:src="@drawable/ic_settings"
-                app:stateListFilter="inverse"
+                app:drawableFilterMode="inverse"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 />

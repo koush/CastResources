@@ -54,7 +54,7 @@
 
         <com.koushikdutta.cast.InverseFloatingActionButton
                 android:layout_marginTop="-28dp"
-                app:stateListFilter="inverse"
+                app:drawableFilterMode="inverse"
                 android:layout_gravity="right"
                 android:id="@+id/fab"
                 android:layout_width="wrap_content"

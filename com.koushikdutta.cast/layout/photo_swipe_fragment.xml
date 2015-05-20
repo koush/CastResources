@@ -102,7 +102,7 @@
 
                 <com.koushikdutta.boilerplate.tint.TintedImageView
                         android:layout_gravity="center_vertical"
-                        app:stateListFilter="inverse"
+                        app:drawableFilterMode="inverse"
                         android:id="@+id/back"
                         android:src="@drawable/ic_playback_back"
                         android:layout_weight="1"
@@ -131,7 +131,7 @@
                                 android:layout_height="?attr/actionBarSize"/>
 
                         <com.koushikdutta.boilerplate.tint.TintedImageView
-                                app:stateListFilter="inverse"
+                                app:drawableFilterMode="inverse"
                                 android:src="@drawable/ic_playback_pause"
                                 android:layout_gravity="center"
                                 android:layout_width="wrap_content"
@@ -139,7 +139,7 @@
                     </FrameLayout>
 
                     <com.koushikdutta.boilerplate.tint.TintedImageView
-                            app:stateListFilter="inverse"
+                            app:drawableFilterMode="inverse"
                             android:id="@+id/slideshow_image"
                             android:background="@android:color/transparent"
                             android:src="@drawable/ic_playback_play"
@@ -150,7 +150,7 @@
 
                 <com.koushikdutta.boilerplate.tint.TintedImageView
                         android:layout_gravity="center_vertical"
-                        app:stateListFilter="inverse"
+                        app:drawableFilterMode="inverse"
                         android:id="@+id/forward"
                         android:src="@drawable/ic_playback_forward"
                         android:layout_weight="1"

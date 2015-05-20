@@ -38,7 +38,7 @@
         </LinearLayout>
 
         <com.koushikdutta.boilerplate.tint.TintedImageView
-                app:stateListFilter="normal"
+                app:drawableFilterMode="normal"
                 android:src="@drawable/ic_action_navigation_more_vert"
                 android:layout_gravity="center_vertical|right"
                 android:scaleType="fitCenter"

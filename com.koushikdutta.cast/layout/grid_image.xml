@@ -18,7 +18,7 @@
                 />
 
         <com.koushikdutta.boilerplate.tint.TintedImageView
-                app:stateListFilter="inverse"
+                app:drawableFilterMode="inverse"
                 android:gravity="center"
                 android:layout_gravity="center"
                 android:id="@+id/badge"
