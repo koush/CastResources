@@ -90,4 +90,5 @@
     <string name="stop_playback_and_exit">Stop playback on %s and exit AllCast?</string>
     <string name="about">About</string>
     <string name="error_loading">Error loading media: %s.\nThis may be caused by slow servers or unsupported media types.</string>
+    <string name="airplay_code">AirPlay Code</string>
 </resources>
