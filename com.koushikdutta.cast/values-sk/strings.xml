@@ -86,4 +86,7 @@
     <string name="help_and_feedback">Pomoc a spätná väzba</string>
     <string name="connected">pripojené</string>
     <string name="stop_playback_and_exit">Zastaviť prehrávanie na %s a ukončiť AllCast?</string>
+    <string name="about">O aplikácii</string>
+    <string name="error_loading">Chyba pri načítaní média: %s.\nChyba mohla byť spôsobená pomalými servermi alebo nepodporovanými typmi médií.</string>
+    <string name="airplay_code">Kód AirPlay</string>
 </resources>
