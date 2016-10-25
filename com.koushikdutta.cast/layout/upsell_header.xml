@@ -83,6 +83,46 @@
     </FrameLayout>
 
     <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/clockworkmod_app"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <com.koushikdutta.boilerplate.tint.TintedImageView
+            app:drawableFilterMode="porterDuff"
+            android:src="@drawable/ic_action_play"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/boilerplate_list_item_layout_horizontalMargin"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/boilerplate_list_item_second_column_horizontalMargin"
+            android:layout_marginRight="@dimen/boilerplate_list_item_layout_horizontalMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp">
+
+            <com.koushikdutta.boilerplate.tint.TintedTextView
+                android:id="@+id/clockworkmod_app_name"
+                android:gravity="center_vertical"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.koushikdutta.boilerplate.tint.TintedTextView
+                android:id="@+id/clockworkmod_app_description"
+                android:gravity="center_vertical"
+                style="@style/TextAppearance.AppCompat.Caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
             android:id="@+id/amazon"
             android:layout_weight="1"
             android:layout_width="0dp"
