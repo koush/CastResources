@@ -18,7 +18,7 @@
                 android:layout_height="wrap_content"/>
 
     </FrameLayout>
-    <android.support.v7.widget.AppCompatRatingBar
+    <androidx.appcompat.widget.AppCompatRatingBar
         android:id="@+id/rate"
         android:layout_gravity="center"
         android:numStars="5"

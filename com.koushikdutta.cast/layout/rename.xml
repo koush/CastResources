@@ -4,7 +4,7 @@
               android:layout_width="240dp"
               android:layout_height="wrap_content">
 
-    <android.support.v7.widget.AppCompatEditText
+    <androidx.appcompat.widget.AppCompatEditText
             android:layout_marginTop="24dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"

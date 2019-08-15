@@ -96,7 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height"/>
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
                 android:background="@drawable/gradient_fade_to_translucent"
                 app:title="@string/no_media_playback"
                 android:id="@+id/toolbar"

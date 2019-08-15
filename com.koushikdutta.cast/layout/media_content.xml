@@ -11,7 +11,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <android.support.v4.view.ViewPager
+                <androidx.viewpager.widget.ViewPager
                         android:id="@+id/pager"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
@@ -38,7 +38,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height" />
 
-                <android.support.v7.widget.Toolbar
+                <androidx.appcompat.widget.Toolbar
                         app:title="@string/app_name"
                         android:id="@+id/toolbar"
                         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
