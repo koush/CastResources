@@ -12,7 +12,7 @@
             android:paddingRight="16dp"
             android:gravity="center_vertical|start"
             style="@style/TextAppearance.AppCompat.Medium"
-            android:text="@string/google_plus"
+            android:text="@string/google_photos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
