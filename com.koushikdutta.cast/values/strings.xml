@@ -56,6 +56,7 @@
     <string name="cloud">Cloud</string>
     <string name="network">Network</string>
     <string name="media_server">Media Server</string>
+    <string name="google_plus">Google Plus</string>
     <string name="google_photos">Google Photos</string>
     <string name="dlna_proxy">Media Server Proxy</string>
     <string name="dlna_proxy_summary">Download web videos to your Android before sending to your Smart TV. This may fix issues with Samsung TVs and others.</string>
