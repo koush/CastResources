@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.koushikdutta.boilerplate.ScrollingToolbarLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrolling_toolbar_layout"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <include
+                layout="@layout/gridview"
+                android:elevation="10dp"
+                />
+    </FrameLayout>
+
+    <LinearLayout
+            android:id="@+id/toolbar_container"
+            android:elevation="10dp"
+            android:orientation="vertical"
+            android:background="?attr/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height"/>
+
+        <androidx.appcompat.widget.Toolbar
+                app:title="@string/app_name"
+                android:id="@+id/toolbar"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                />
+
+        <com.mancj.materialsearchbar.MaterialSearchBar
+            app:mt_textCursorTint="@android:color/black"
+            android:layout_margin="4dp"
+            style="@style/MaterialSearchBarLight"
+            app:mt_navIconEnabled="false"
+            app:mt_maxSuggestionsCount="0"
+            app:mt_hint="Torrent Name"
+            app:mt_placeholder="Search for Torrent Magnet Links"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchBar" />
+
+    </LinearLayout>
+
+</com.koushikdutta.boilerplate.ScrollingToolbarLayout>

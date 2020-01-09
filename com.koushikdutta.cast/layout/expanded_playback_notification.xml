@@ -8,13 +8,12 @@
 
     <LinearLayout
             android:paddingLeft="16dp"
-            android:layout_margin="8dp"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
         <LinearLayout
-                android:paddingBottom="8dp"
+                android:paddingTop="4dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -49,6 +48,7 @@
             android:background="@android:drawable/divider_horizontal_dark"/>
 
     <LinearLayout
+        android:paddingBottom="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
