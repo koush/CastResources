@@ -7,20 +7,12 @@
         <item name="android:textColorPrimary">#61615E</item>
         <item name="android:textColorPrimaryInverse">@android:color/white</item>
         <item name="android:selectableItemBackground">@drawable/selectable_item_background_compat</item>
+    </style>
 
-
-<!--        <item name="mt_searchBarColor">@color/colorPrimary</item>-->
-<!--        <item name="mt_dividerColor">@color/colorPrimary</item>-->
-<!--        <item name="mt_navIconTint">@android:color/white</item>-->
-<!--        <item name="mt_searchIconTint">@android:color/white</item>-->
-<!--        <item name="mt_clearIconTint">@android:color/white</item>-->
-<!--        <item name="mt_menuIconTint">@android:color/white</item>-->
-<!--        <item name="mt_backIconTint">@color/colorPrimary</item>-->
-<!--        <item name="mt_textCursorTint">@android:color/white</item>-->
-<!--        <item name="mt_textColor">@android:color/white</item>-->
-<!--        <item name="mt_hintColor">#80FFFFFF</item>-->
-<!--        <item name="mt_placeholderColor">@color/colorPrimary</item>-->
-<!--        <item name="mt_highlightedTextColor">@android:color/white</item>-->
+    <style name="CastThemeDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorPrimaryInverse">#61615E</item>
     </style>
 
     <style name="CastTheme.Mint">

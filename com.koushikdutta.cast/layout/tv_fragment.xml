@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.koushikdutta.boilerplate.ScrollingToolbarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrolling_toolbar_layout"
+    android:background="?android:attr/windowBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--Need this to ensure that the imageview is clipped, because the FAB button needs-->
+    <!--the parent to not have clipping to work properly-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/icon_list_drawer_activity_backdrop_height">
+
+        <ImageView
+            android:id="@+id/backdrop_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:transitionName="backdrop" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.koushikdutta.boilerplate.recyclerview.GridRecyclerView
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:id="@+id/footer_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/icon_list_drawer_activity_backdrop_height">
+
+            <include layout="@layout/grid_empty" />
+        </LinearLayout>
+
+        <com.koushikdutta.cast.InverseFloatingActionButton
+            android:textColorPrimaryInverse="@android:color/white"
+            android:textColorPrimary="@android:color/white"
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="-28dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_playback_play"
+            app:drawableFilterMode="inverse"
+            app:fab_colorNormal="?attr/colorPrimary"
+            app:fab_colorPressed="?attr/colorPrimaryDark"
+            app:fab_colorRipple="?attr/colorPrimaryDark" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="10dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="@string/app_name" />
+    </LinearLayout>
+
+</com.koushikdutta.boilerplate.ScrollingToolbarLayout>

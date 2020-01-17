@@ -92,4 +92,10 @@
     <string name="about">About</string>
     <string name="error_loading">Error loading media: %s.\nThis may be caused by slow servers or unsupported media types.</string>
     <string name="airplay_code">AirPlay Code</string>
+    <string name="subtitles">Subtitles</string>
+    <string name="toggle">Toggle</string>
+    <string name="search_opensubtitles">Search OpenSubtitles</string>
+    <string name="subtitles_error">There was an error retrieving the subtitles.</string>
+    <string name="no_subtitles_found">No subtitles were found.</string>
+    <string name="x_downloads">%d downloads</string>
 </resources>
