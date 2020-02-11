@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.koushikdutta.boilerplate.ScrollingToolbarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrolling_toolbar_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/server">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/server"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/folder">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/folder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/domain">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/domain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_gravity="right"
+            android:id="@+id/add"
+            android:text="@string/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/toolbar_container"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:background="?attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height"/>
+
+        <androidx.appcompat.widget.Toolbar
+            app:title="@string/add_network_folder"
+            android:id="@+id/toolbar"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            />
+    </LinearLayout>
+
+</com.koushikdutta.boilerplate.ScrollingToolbarLayout>
