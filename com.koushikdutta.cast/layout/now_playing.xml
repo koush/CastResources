@@ -1,283 +1,292 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:app="http://schemas.android.com/apk/res-auto"
-             android:background="@android:color/black"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="@android:color/black">
 
     <ImageView
-            android:scaleType="centerInside"
-            android:layout_gravity="center"
-            android:id="@+id/cover_art"
-            android:alpha=".7"
-            android:src="@drawable/web_hi_res_512"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+        android:id="@+id/cover_art"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:alpha=".7"
+        android:scaleType="centerInside"
+        android:src="@drawable/web_hi_res_512" />
 
     <LinearLayout
-            android:padding="8dp"
-            android:background="#C0000000"
-            android:layout_gravity="center"
-            android:visibility="invisible"
-            android:id="@+id/progress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#C0000000"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="invisible">
 
         <ProgressBar
-                android:layout_gravity="center"
-                style="@style/Widget.AppCompat.ProgressBar"
-                android:indeterminate="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true" />
 
         <TextView
-                android:layout_gravity="center"
-                android:textColor="@android:color/white"
-                android:paddingTop="10dp"
-                style="@style/TextAppearance.AppCompat.Subhead"
-                android:text="@string/loading"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/loading"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
 
     <LinearLayout
-            android:padding="8dp"
-            android:background="#C0000000"
-            android:layout_gravity="center"
-            android:visibility="invisible"
-            android:id="@+id/error"
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#C0000000"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/load_error"
+            style="@style/TextAppearance.AppCompat.Subhead"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-        <TextView
-                android:gravity="center"
-                android:id="@+id/load_error"
-                android:layout_gravity="center"
-                android:textColor="@android:color/white"
-                style="@style/TextAppearance.AppCompat.Subhead"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
 
     </LinearLayout>
-
-    <ImageButton
-            android:visibility="gone"
-            android:background="#00000000"
-            android:id="@+id/playback_toggle"
-            android:layout_gravity="center"
-            android:src="@drawable/ic_av_pause_over_video"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
 
     <TextView
-            android:background="#C0000000"
-            android:visibility="gone"
-            android:textSize="96sp"
-            style="@style/TextAppearance.AppCompat.Display3"
-            android:textColor="@android:color/white"
-            android:id="@+id/seek_time"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"/>
+        android:id="@+id/seek_time"
+        style="@style/TextAppearance.AppCompat.Display3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#C0000000"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="96sp"
+        android:visibility="gone" />
 
 
     <LinearLayout
-            android:elevation="10dp"
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-        <FrameLayout
-                android:background="?attr/colorPrimary"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height"/>
-
-        <androidx.appcompat.widget.Toolbar
-                android:background="@drawable/gradient_fade_to_translucent"
-                app:title="@string/no_media_playback"
-                android:id="@+id/toolbar"
-                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                />
-    </LinearLayout>
-
-    <LinearLayout
-            android:layout_gravity="bottom"
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
-                android:background="@drawable/gradient_fade_to_solid"
-                android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:orientation="vertical">
+
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="112dp">
+                android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height"
+                android:background="?attr/colorPrimary" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/gradient_fade_to_translucent"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:title="@string/no_media_playback" />
+
+            <FrameLayout
+                android:id="@+id/ad_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/playback_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:src="@drawable/ic_av_pause_over_video"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:background="@drawable/gradient_fade_to_solid"
+            android:orientation="vertical">
 
             <LinearLayout
-                    android:orientation="vertical"
-                    android:id="@+id/time_info"
-                    android:visibility="invisible"
-                    android:layout_width="fill_parent"
-                    android:layout_height="50dp">
+                android:id="@+id/time_info"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:visibility="invisible">
 
                 <LinearLayout
-                        android:paddingLeft="16dp"
-                        android:paddingRight="16dp"
-                        android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        android:id="@+id/time"
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp">
-
-                    <TextView
-                            android:id="@+id/time"
-                            android:gravity="left"
-                            android:textColor="@android:color/white"
-                            style="@style/TextAppearance.AppCompat.Body1"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
+                        android:gravity="left"
+                        android:textColor="@android:color/white" />
 
 
                     <TextView
-                            android:id="@+id/elapsed"
-                            android:gravity="right"
-                            android:layout_gravity="center"
-                            android:textColor="@android:color/white"
-                            style="@style/TextAppearance.AppCompat.Body1"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
+                        android:id="@+id/elapsed"
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:textColor="@android:color/white" />
 
 
                 </LinearLayout>
 
                 <SeekBar
-                        android:layout_marginTop="16dp"
-                        android:maxHeight="4dp"
-                        android:id="@+id/seek"
-                        android:thumb="@drawable/now_playing_seekbar_thumb"
-                        android:progressDrawable="@drawable/now_playing_seekbar"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+                    android:id="@+id/seek"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:maxHeight="4dp"
+                    android:progressDrawable="@drawable/now_playing_seekbar"
+                    android:thumb="@drawable/now_playing_seekbar_thumb" />
 
             </LinearLayout>
 
             <LinearLayout
-                    android:paddingBottom="10dp"
-                    android:paddingTop="10dp"
-                    android:gravity="center_vertical"
-                    android:layout_weight="1"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp">
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
 
                 <FrameLayout
-                        android:id="@+id/replay"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="match_parent">
+                    android:id="@+id/replay"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
 
                     <com.koushikdutta.boilerplate.tint.TintedImageView
-                            android:layout_gravity="center"
-                            android:scaleType="fitCenter"
-                            app:drawableFilterMode="inverse"
-                            android:src="@drawable/ic_action_jumpback"
-                            android:layout_width="match_parent"
-                            android:layout_height="16dp"/>
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_action_jumpback"
+                        app:drawableFilterMode="inverse" />
 
                     <TextView
-                            android:paddingLeft="8dp"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:text="10"
-                            android:textColor="@android:color/black"
-                            android:textSize="10sp"
-                            style="@style/TextAppearance.AppCompat.Caption"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"/>
+                        style="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:paddingLeft="8dp"
+                        android:text="10"
+                        android:textColor="@android:color/black"
+                        android:textSize="10sp" />
                 </FrameLayout>
 
                 <com.koushikdutta.boilerplate.tint.TintedImageView
-                        android:id="@+id/prev"
-                        app:drawableFilterMode="inverse"
-                        android:src="@drawable/ic_playback_back"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="16dp"/>
+                    android:id="@+id/prev"
+                    android:layout_width="0dp"
+                    android:layout_height="16dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_playback_back"
+                    app:drawableFilterMode="inverse" />
 
                 <com.koushikdutta.boilerplate.tint.TintedImageView
-                        android:id="@+id/stop"
-                        app:drawableFilterMode="inverse"
-                        android:src="@drawable/ic_playback_stop"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="16dp"/>
+                    android:id="@+id/stop"
+                    android:layout_width="0dp"
+                    android:layout_height="16dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_playback_stop"
+                    app:drawableFilterMode="inverse" />
 
                 <com.koushikdutta.boilerplate.tint.TintedImageView
-                        android:visibility="gone"
-                        app:drawableFilterMode="inverse"
-                        android:id="@+id/cc"
-                        android:src="@drawable/ic_action_caption"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"/>
+                    android:id="@+id/cc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_action_caption"
+                    android:visibility="gone"
+                    app:drawableFilterMode="inverse" />
 
                 <com.koushikdutta.boilerplate.tint.TintedImageView
-                        android:visibility="gone"
-                        app:drawableFilterMode="inverse"
-                        android:id="@+id/headphones"
-                        android:src="@drawable/ic_action_headset"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"/>
+                    android:id="@+id/headphones"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_action_headset"
+                    android:visibility="gone"
+                    app:drawableFilterMode="inverse" />
 
                 <com.koushikdutta.boilerplate.tint.TintedImageView
-                        android:id="@+id/next"
-                        app:drawableFilterMode="inverse"
-                        android:src="@drawable/ic_playback_forward"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="16dp"/>
+                    android:id="@+id/next"
+                    android:layout_width="0dp"
+                    android:layout_height="16dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_playback_forward"
+                    app:drawableFilterMode="inverse" />
 
                 <FrameLayout
-                        android:id="@+id/jump"
-                        android:layout_width="0dp"
-                        android:layout_weight="1"
-                        android:layout_height="match_parent">
+                    android:id="@+id/jump"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
 
                     <com.koushikdutta.boilerplate.tint.TintedImageView
-                            android:layout_gravity="center"
-                            android:scaleType="fitCenter"
-                            app:drawableFilterMode="inverse"
-                            android:src="@drawable/ic_action_jumpforward"
-                            android:layout_width="match_parent"
-                            android:layout_height="16dp"/>
+                        android:layout_width="match_parent"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_action_jumpforward"
+                        app:drawableFilterMode="inverse" />
 
                     <TextView
-                            android:paddingRight="8dp"
-                            android:layout_gravity="center"
-                            android:gravity="center"
-                            android:text="30"
-                            android:textColor="@android:color/black"
-                            android:textSize="10sp"
-                            style="@style/TextAppearance.AppCompat.Caption"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"/>
+                        style="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:paddingRight="8dp"
+                        android:text="30"
+                        android:textColor="@android:color/black"
+                        android:textSize="10sp" />
                 </FrameLayout>
 
             </LinearLayout>
         </LinearLayout>
-
-        <FrameLayout
-                android:layout_gravity="center"
-                android:id="@+id/ad_holder"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
     </LinearLayout>
-</FrameLayout>
 
+</FrameLayout>

@@ -98,4 +98,14 @@
     <string name="subtitles_error">There was an error retrieving the subtitles.</string>
     <string name="no_subtitles_found">No subtitles were found.</string>
     <string name="x_downloads">%d downloads</string>
+    <string name="add">Add</string>
+    <string name="add_network_share">Add a network share from the menu.</string>
+    <string name="server">Server</string>
+    <string name="folder">Folder</string>
+    <string name="domain">Domain</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="add_network_folder">Add Network Folder</string>
+    <string name="save">Save</string>
+    <string name="windows_share">Windows Share</string>
 </resources>
