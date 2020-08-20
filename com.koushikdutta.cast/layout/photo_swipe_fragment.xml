@@ -30,7 +30,9 @@
             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
         <FrameLayout
+            android:layout_marginTop="16dp"
             android:id="@+id/ad_holder"
+            android:background="@android:color/darker_gray"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center" />

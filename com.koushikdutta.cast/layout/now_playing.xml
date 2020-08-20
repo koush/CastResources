@@ -103,6 +103,8 @@
                 app:title="@string/no_media_playback" />
 
             <FrameLayout
+                android:layout_marginTop="16dp"
+                android:background="@android:color/darker_gray"
                 android:id="@+id/ad_holder"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
